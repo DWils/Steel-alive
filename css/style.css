@@ -16,5 +16,23 @@ h1
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+#borderhelp
+{
+    border-style: solid;
+}
+#cathelp
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 180px;
+    gap: 35px;
+
+}
+#contact
+{
+    display: flex;
+    flex-direction: column;
 }
