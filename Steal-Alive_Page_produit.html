@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="css/Page_produit.css">
   </head>
   <body>
     <header></header>
 
 <!-- article selectionné -->
-    <img src="images/produit.png" alt="visuel de l'article" />
-    <div>
-      <h4>Point clé</h4>
+<div id="box_produit">
+    <img id="produit" src="images/produit.png" alt="visuel de l'article" />
+    <div id="description">
+      <h2>Point clé</h2>
       <ul>
         <li>Ecran : 14" (35,6 cm)</li>
         <li>Stockage : SSD 512 Go (en PCi-Express) + Optane 32 Go</li>
@@ -20,15 +22,17 @@
         <li>Mémoire vive : 16 Go</li>
       </ul>
     </div>
-  
+  </div>
 <!-- Suggestion -->
-
+<div id="suggestion">
     <a href="google.com"><img src="images/image 1.png" alt="sugg1"></a>
     <a href="google.com"><img src="images/image 2.png" alt="sugg1"></a>
     <a href="google.com"><img src="images/image 3.png" alt="sugg1"></a>
     <a href="google.com"><img src="images/image 4.png" alt="sugg1"></a>
-
+</div>
 <!-- descriptif detaillé du produit -->
+<h2 id="titre-desc">Descriptif</h2>
+<div id="descriptif">
     <div>
       <h4>Ecran</h4>
       <span>
@@ -39,7 +43,7 @@
       <p><strong>Type d'écran :</strong> écran mat pour diminuer la fatigue occulaire</p>
       <p><strong>Anti-reflets :</strong> Oui</p>
       <p><strong>Webcam intégrée :</strong> Oui</p>
-      <p><strong>Microphone intégré :</strong> Oui</p>
+      <p><strong>Microphone intégré :</strong> Oui</p><br>
       </span>
     </div>
     <br>
@@ -120,16 +124,16 @@
     <p><strong>Assemblé en : </strong>Chine</p></span>
     <br>
 
-    <H4>Dimensions</H4>
+    <h4>Dimensions</h4>
     <p><strong>Dimensions l x h x p :</strong> 1.6 x 23.5 x 32.4 cm</p>
     <p><strong>Poids : </strong>1,4 kg</p>
 
     </div>
-
+</div>
 <!-- Avis -->
 
     <div>
-    <h2>Avis</h2>
+    <h2 id="titre-desc">Avis</h2>
     </div>
   </body>
 </html>
