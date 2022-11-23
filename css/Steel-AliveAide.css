@@ -1,0 +1,43 @@
+/* Titre */
+h1 {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+/* main */
+#mainwraper {
+  border: 1px black slid;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+  align-items: center;
+}
+#separator {
+}
+#cathelp {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+  align-items: center;
+}
+
+h2 {
+  color: rgb(43, 89, 162);
+}
+.faq {
+  border: 2px solid rgb(43, 89, 162);
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 5px;
+}
+/* footer */
