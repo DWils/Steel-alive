@@ -1,21 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Steel Alive</title>
-    <link rel="stylesheet" href="css//style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/Steel Alive.css" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <header>  
-        <a href="https://www.google.com" alt="lien vers google">
-          <img src="images/logo.png" alt="">
-        </a>
-      <h1> <strong>Steel alive<strong></h1> 
-    </header>
-    <main>        
-    </main>
+    <div id="bloc_page">
+        <header>
+          <div id="header">
+            <div id="titre_principal">
+                <div id="logo">
+                    <img src="images/logo.png" alt="logosite"/>
+                    <a>Steel Alive</a>  
+                </div>
+                <div id="searchBar">
+                  <form method="post" action="traitement.php">
+                  <p>
+                      <label for="searchBar">C'est parti:</label>
+                      <input type="text" name="searchBar" id="searchBar" placeholder="Iphone 14 Pro" size="30" maxlength="10" />
+                  </p>
+                  </form>
+                </div> 
+                <div class="icons">
+                  <!--ajouter lien ici pour icône favoris-->
+                  <img src="images/favorite.png">
+                  <!--ajouter lien ici pour icône panier-->
+                  <img src="images/cart.png">
+                  <a href="Steel-AliveProfil.html">
+                  <img src="images/profile.png" href="Steel-AliveProfil.html"></a>
+                </div>
+            </div>
+            <div class="navbar">
+                  <a>Tous les produits</a>
+                  <a>Ordinateurs</a>
+                  <a>Smartphone</a>
+                  <a>TV</a>
+                  <a>Audio/Hi-Fi</a>
+                  <a>Console</a>
+                  <a>Divers</a>
+                </div>
+                <hr style="height:2px;border-width:0;color:gray;background-color:gray"></hrstyle>
+            </div>
+        </header>
   </body>
+  <main></main>
 </html>
