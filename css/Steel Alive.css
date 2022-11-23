@@ -25,6 +25,19 @@
     justify-content: space-around;
     padding: 20px 20px;
 }
-.icons{
+  .menu-label,
+.menu-cb {
+  /* Retire l'affichage par défaut des éléments de formulaire */
+  /* ... comme les checkbox */
+  appearance: none;
 
+  /* Défini une position fixe, comme ajouté précedemment */
+  position: relative;
+}
+.menu-nav {
+    /* [...les autres propriétés CSS...] */
+    display: none;
+  }
+.menu-cb:checked ~ .menu-nav {
+    display: block;
 }
