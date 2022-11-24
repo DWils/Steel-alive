@@ -26,9 +26,6 @@
     justify-content: space-around;
     padding: 20px 20px;
 }
-hr{
-    position: sticky;
-}
 .dropdown{
     display: inline-block;
     align-content: stretch;
