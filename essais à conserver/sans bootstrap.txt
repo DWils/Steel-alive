@@ -1,0 +1,244 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Steel Alive</title>
+    <link rel="stylesheet" href="css/Steel Alive.css" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+  <body>
+    <div id="bloc_page">
+        <header>
+          <div id="header">
+            <div id="titre_principal">
+                <div id="logo">
+                    <img src="images/logo.png" alt="logosite"/>
+                    <a>Steel Alive</a>  
+                </div>
+                <div id="searchBar">
+                  <form method="post" action="traitement.php">
+                  <p>
+                      <label for="searchBar">C'est parti:</label>
+                      <input type="text" name="searchBar" id="searchBar" placeholder="Iphone 14 Pro" size="30" maxlength="10" />
+                  </p>
+                  </form>
+                </div> 
+                <div class="icons">
+                  <!--ajouter lien ici pour icône favoris-->
+                  <img src="images/favorite.png">
+                  <!--ajouter lien ici pour icône panier-->
+                  <img src="images/cart.png">
+                  <a href="Steel-AliveProfil.html">
+                  <img src="images/profile.png" href="Steel-AliveProfil.html"></a>
+                </div>
+            </div>
+            <div class="navbar">
+              <label for="menu-cb1" class="menu-label">
+                <input type="checkbox" id="menu-cb1" class="menu-cb1">
+                  <a>Tous les produits</a><nav class="menu-nav">
+                    <ul>
+                      <li class="menu-item"><a href="#page1">Page 1</a></li>
+                      <li class="menu-item"><a href="#page2">Page 2</a></li>
+                      <li class="menu-item"><a href="#page3">Page 3</a></li>
+                      <li class="menu-item"><a href="#page3">Page 4</a></li>
+                    </ul>
+                  </nav></label>
+                  <label for="menu-cb2" class="menu-label">
+                    <input type="checkbox" id="menu-cb2" class="menu-cb2">
+                    <a>Ordinateurs</a><nav class="menu-nav">
+                    <ul>
+                      <li class="menu-item"><a href="#page1">Page 1</a></li>
+                      <li class="menu-item"><a href="#page2">Page 2</a></li>
+                      <li class="menu-item"><a href="#page3">Page 3</a></li>
+                      <li class="menu-item"><a href="#page3">Page 4</a></li>
+                    </ul></nav></label>
+                    <label for="menu-cb3" class="menu-label">
+                      <input type="checkbox" id="menu-cb3" class="menu-cb3">
+                      <a>Smartphone</a><nav class="menu-nav">
+                      <ul>
+                        <li class="menu-item"><a href="#page1">Page 1</a></li>
+                        <li class="menu-item"><a href="#page2">Page 2</a></li>
+                        <li class="menu-item"><a href="#page3">Page 3</a></li>
+                        <li class="menu-item"><a href="#page3">Page 4</a></li>
+                      </ul></nav></label>
+                      <label for="menu-cb4" class="menu-label">
+                        <input type="checkbox" id="menu-cb4" class="menu-cb4">
+                        <a>TV</a><nav class="menu-nav">
+                        <ul>
+                          <li class="menu-item"><a href="#page1">Page 1</a></li>
+                          <li class="menu-item"><a href="#page2">Page 2</a></li>
+                          <li class="menu-item"><a href="#page3">Page 3</a></li>
+                          <li class="menu-item"><a href="#page3">Page 4</a></li>
+                        </ul></nav></label>
+                        <label for="menu-cb5" class="menu-label">
+                          <input type="checkbox" id="menu-cb5" class="menu-cb5">
+                          <a>Audio/Hi-Fi</a><nav class="menu-nav">
+                          <ul>
+                            <li class="menu-item"><a href="#page1">Page 1</a></li>
+                            <li class="menu-item"><a href="#page2">Page 2</a></li>
+                            <li class="menu-item"><a href="#page3">Page 3</a></li>
+                            <li class="menu-item"><a href="#page3">Page 4</a></li>
+                          </ul></nav></label>
+                          <label for="menu-cb6" class="menu-label">
+                            <input type="checkbox" id="menu-cb6" class="menu-cb6">
+                            <a>Console</a><nav class="menu-nav">
+                            <ul>
+                              <li class="menu-item"><a href="#page1">Page 1</a></li>
+                              <li class="menu-item"><a href="#page2">Page 2</a></li>
+                              <li class="menu-item"><a href="#page3">Page 3</a></li>
+                              <li class="menu-item"><a href="#page3">Page 4</a></li>
+                            </ul></nav></label>
+                            <label for="menu-cb7" class="menu-label">
+                              <input type="checkbox" id="menu-cb7" class="menu-cb7">
+                              <a>Divers</a><nav class="menu-nav">
+                              <ul>
+                                <li class="menu-item"><a href="#page1">Page 1</a></li>
+                                <li class="menu-item"><a href="#page2">Page 2</a></li>
+                                <li class="menu-item"><a href="#page3">Page 3</a></li>
+                                <li class="menu-item"><a href="#page3">Page 4</a></li>
+                              </ul></nav></label>
+                </div>
+                <hr style="height:2px;border-width:0;color:gray;background-color:gray"></hrstyle>
+            </div>
+        </header>
+        <script src="javascript/menu.js"></script>
+  </body>
+  <main></main>
+</html>
+
+CSS
+*{
+    margin: 0;
+}
+#titre_principal
+{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+#logo img
+{
+    display: flex;
+    width: 50px;
+}
+#searchBar{
+    display: flexbox;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 20px 20px;
+}
+  .menu-label,.menu-cb1{
+  appearance: none;
+}
+  .menu-label,.menu-cb2{
+  appearance: none;
+}
+  .menu-label,.menu-cb3{
+  appearance: none;
+}
+  .menu-label,.menu-cb4{
+  appearance: none;
+}
+  .menu-label,.menu-cb5{
+  appearance: none;
+}
+  .menu-label,.menu-cb6{
+  appearance: none;
+}
+  .menu-label,.menu-cb7{
+  appearance: none;
+}
+.menu-label{
+  /* Défini une position  */
+  position: relative;
+}
+.menu-nav {
+    /* ...les autres propriétés CSS... */
+    display: none;
+  }
+.menu-cb1:checked ~ .menu-nav {
+    display: block;
+}
+.menu-cb2:checked ~ .menu-nav {
+    display: block;
+}
+.menu-cb3:checked ~ .menu-nav {
+    display: block;
+}
+.menu-cb4:checked ~ .menu-nav {
+    display: block;
+}
+.menu-cb5:checked ~ .menu-nav {
+    display: block;
+}
+.menu-cb6:checked ~ .menu-nav {
+    display: block;
+}
+.menu-cb7:checked ~ .menu-nav {
+    display: block;
+}
+
+.menu-cote {
+    position: relative;
+  }
+hr{
+    position: sticky;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+
+JS
+const fermerMenu = () => {
+  // Récupérer la case à cocher
+  const input = document.getElementsById('menu-cb1,menu-cb2,menu-cb3,menu-cb4,menu-cb5,menu-cb6,menu-cb7')
+  // Changer son état
+  // .. ce qui a pour conséquence de le retirer de l'écran
+  input.checked = false
+
+  // Supprimer l'élément transparent ajouté à l'ouverture du menu
+  const fenetreNode = document.getElementById('menu-cote')
+  fenetreNode.remove()
+}
+
+const changerEtatMenu = () => {
+  // Récupérer la case à cocher
+  const input = document.getElementById('menu-cb1,menu-cb2,menu-cb3,menu-cb4,menu-cb5,menu-cb6,menu-cb7')
+  // Récupérer l'état de la case
+  const actif = input.checked
+
+  // Si le menu est affiché
+  if (actif) {
+    // Ajouter un élément transparent
+    const fenetreNode = document.createElement('div')
+    fenetreNode.id = 'menu-cote'
+    fenetreNode.className = 'menu-cote'
+
+    // Ecouter lorsque le visiteur clique dessus
+    fenetreNode.addEventListener('click', fermerMenu)
+    
+    // Ajouter l'élément à la page
+    document.body.appendChild(fenetreNode)
+  } else {
+    // ... sinon ...
+    // Supprimer l'élément fictif ajouté à l'ouverture du menu
+    const fenetreNode = document.getElementById('menu-cote')
+    fenetreNode.remove()
+  }
+}
+
+// Ecouter lorsque le visiteur clique sur le menu
+const input = document.getElementById('menu-prod,menu-pc,menu-smart,menu-tv,menu-audio,menu-console,menu-others')
+input.addEventListener('click', changerEtatMenu)
