@@ -1,51 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Steel Alive</title>
-    <link rel="stylesheet" href="css/Steel Alive.css" />
-    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
-  </head>
-  <body>
-    <div id="bloc_page">
-        <header>
-          <div id="header">
-            <div id="titre_principal">
-                <div id="logo">
-                    <img src="images/logo.png" alt="logosite"/>
-                    <a>Steel Alive</a>  
-                </div>
-                <div id="searchBar">
-                  <form method="post" action="traitement.php">
-                  <p>
-                      <label for="searchBar">C'est parti:</label>
-                      <input type="text" name="searchBar" id="searchBar" placeholder="Iphone 14 Pro" size="30" maxlength="10" />
-                  </p>
-                  </form>
-                </div> 
-                <div class="icons">
-                  <!--ajouter lien ici pour icône favoris-->
-                  <img src="images/favorite.png">
-                  <!--ajouter lien ici pour icône panier-->
-                  <img src="images/cart.png">
-                  <a href="Steel-AliveProfil.html">
-                  <img src="images/profile.png" href="Steel-AliveProfil.html"></a>
-                </div>
-            </div>
-            <div class="navbar">
-                  <a>Tous les produits</a>
-                  <a>Ordinateurs</a>
-                  <a>Smartphone</a>
-                  <a>TV</a>
-                  <a>Audio/Hi-Fi</a>
-                  <a>Console</a>
-                  <a>Divers</a>
-                </div>
-                <hr style="height:2px;border-width:0;color:gray;background-color:gray"></hrstyle>
-            </div>
-        </header>
-  </body>
-  <main></main>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Steel Alive</title>
+  <link rel="stylesheet" href="css/Steel Alive.css" />
+  <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <div id="page">
+
+    <header>
+      <div id="header">
+        <div id="titre_principal">
+          <div id="logo">
+            <img src="images/logo.png" alt="logosite" />
+            <a>Steel Alive</a>
+          </div>
+          <div id="searchBar">
+            <form method="post" action="traitement.php">
+              <p>
+                <label for="searchBar">C'est parti:</label>
+                <input type="text" name="searchBar" id="searchBar" placeholder="Iphone 14 Pro" size="30"
+                  maxlength="10" />
+              </p>
+            </form>
+          </div>
+          <div class="icons">
+            <!--ajouter lien ici pour icône favoris-->
+            <img src="images/favorite.png">
+            <!--ajouter lien ici pour icône panier-->
+            <img src="images/cart.png">
+            <a href="Steel-AliveProfil.html">
+              <img src="images/profile.png" href="Steel-AliveProfil.html"></a>
+          </div>
+        </div>
+        <div class="navbar">
+          <a>Tous les produits</a>
+          <a>Ordinateurs</a>
+          <a>Smartphone</a>
+          <a>TV</a>
+          <a>Audio/Hi-Fi</a>
+          <a>Console</a>
+          <a>Divers</a>
+        </div>
+        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+        </hrstyle>
+      </div>
+    </header>
+    <div id="content"></div>
+
+
+    <footer>
+      <div id="footer">
+        <div id="nous">
+          <h2>A propos de nous</h2>
+          <a class="lien" href="Steel-AliveAide.html">Qui sommes nous?</a>
+          <a class="lien" href="Steel-AliveDIYTutos.html">Le Do It Yourself (DIY)</a>
+        </div>
+        <div id="cg">
+          <a class="lien" href="CGU.htlm">Conditions générales d'utilsateur</a>
+          <a class="lien" href="CGV.htlm">Conditions générales de vente</a>
+          <p>@2022 Steel-Alive</p>
+        </div>
+        <div id="réseaux">
+          <h2>Nos réseaux</h2>
+          <a class="logor" href="https://fr-fr.facebook.com/" target="_blank"><img src="images/face.png" alt="face"></a>
+          <a class="logor" href="https://www.instagram.com/?hl=fr" target="_blank"><img src="images/insta.png"
+              alt="face"></a>
+          <a class="logor" href="https://twitter.com/i/flow/login" target="_blank"><img src="images/twit.png"
+              alt="face"></a>
+        </div>
+      </div>
+    </footer>
+
+</body>
+<main></main>
+
 </html>

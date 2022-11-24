@@ -1,8 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* header */
+
 /* Titre */
 h1 {
   font-size: 40px;
   display: flex;
   justify-content: center;
+  margin-bottom: 1cm;
 }
 /* main */
 #mainwraper {
@@ -20,6 +27,10 @@ h1 {
   margin: auto;
   align-items: center;
 }
+p {
+  margin: 10px;
+  text-align: center;
+}
 #separator {
 }
 #cathelp {
@@ -32,12 +43,15 @@ h1 {
 
 h2 {
   color: rgb(43, 89, 162);
+  margin-bottom: 10px;
 }
 .faq {
   border: 2px solid rgb(43, 89, 162);
   border-radius: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  margin: 5px;
+  margin: 10px;
+  margin-bottom: 10px;
 }
+
 /* footer */
