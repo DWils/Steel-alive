@@ -52,3 +52,60 @@ hr {
   color: #ffffff;
   background-color: #00a4bd;
 }
+#page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#content {
+  flex-grow: 1;
+}
+#footer {
+  border: 1px solid black;
+  background-color: azure;
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 0.5cm;
+  padding-top: 0.5cm;
+}
+#nous {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+#cg {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+#reseaux {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+h2 {
+  font-size: ;
+  color: rgb(0, 183, 255);
+  text-align: center;
+}
+.lien {
+  text-decoration: none !important;
+  color: black;
+}
+.logor {
+  align-self: center;
+}
+img {
+  height: 40px;
+  width: auto;
+}
