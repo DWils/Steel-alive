@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+#titre_principal
+{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+#logo img
+{
+    display: flex;
+    width: 50px;
+}
+#searchBar{
+    display: flexbox;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 20px 20px;
+}
+hr{
+    position: sticky;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
+ }
+#produits, #pc{
+    display: inline;
+}

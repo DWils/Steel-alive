@@ -34,52 +34,28 @@
 }
 .icons {
 }
-
-#footer {
-  border: 1px solid black;
-  background-color: azure;
-
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-bottom: 0.5cm;
-  padding-top: 0.5cm;
+.dropdown {
+  display: inline-block;
+  align-content: stretch;
+  position: fixed;
 }
-#nous {
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: center;
+.dropdown-content {
+  display: none;
+  position: relative;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
 }
-#cg {
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: center;
+.dropdown:hover .dropdown-content {
+  display: block;
 }
-#reseaux {
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+.dropdown-content a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
 }
-h2 {
-  font-size: ;
-  color: rgb(0, 183, 255);
-  text-align: center;
-}
-.lien {
-  text-decoration: none !important;
-  color: black;
-}
-.logor {
-  align-self: center;
-}
-img {
-  height: 40px;
-  width: auto;
+.dropdown-content a:hover {
+  color: #ffffff;
+  background-color: #00a4bd;
 }
