@@ -38,11 +38,11 @@
     justify-content: space-around;
   }
   .menu > li {
-    color: peachpuff;
+    color: white;
     width: 140px;
     height: 40px;
     line-height: 40px;
-    background: rgba(97, 126, 213, 0.8);
+    background: #3D5467;
     cursor: pointer;
     font-size: 17px;
     text-align: center;
@@ -57,7 +57,7 @@
     background: rgba(0,0,0, 0.8);
     padding: 8px 0;
     color: white;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgba(197, 203, 219, 0.8);
     transform: scale(0);
     transform-origin: top center;
   }
@@ -76,15 +76,15 @@
   .navbox{
   margin-left: 50px;
   margin-right: 50px;
-  background-color: rgb(97, 126, 213);
-  border-radius: 12px;
+  background-color: #3D5467;
+  border-radius: 6px;
   }
+
   /*Footer*/
-  
 
   #footer {
     border: 1px solid black;
-    background-color: azure;
+    background-color: #3D5467;
   
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
