@@ -4,6 +4,15 @@
   list-style-type: none;
   box-sizing: border-box;
 }
+#page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#content {
+  flex-grow: 1;
+  }
 
 /*Header*/
 
@@ -71,6 +80,7 @@
   border-radius: 12px;
   }
   /*Footer*/
+  
 
   #footer {
     border: 1px solid black;
