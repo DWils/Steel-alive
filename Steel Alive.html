@@ -31,22 +31,13 @@
                   <!--ajouter lien ici pour icône panier-->
                   <img src="images/cart.png">
                   <a href="Steel-AliveProfil.html">
-                  <img src="images/profile.png" href="Steel-AliveProfil.html"></a>
+                  <img src="images/profile.png" ></a>
                 </div>
             </div> 
             <!--Navbar-->
             <nav>
               <div class="navbox">
               <ul class="menu">
-                <li>Tous les produits
-                  <ul class="sub-menu">
-                    <li>MacBook</li>
-                    <li>MacBook Air</li>
-                    <li>iMac</li>
-                    <li>Mac Pro</li>
-                    <li>Mac Mini</li>
-                  </ul>
-                </li>
                 <li>Ordinateurs
                   <ul class="sub-menu">
                     <li>Portables/ultrabook</li>
@@ -65,20 +56,19 @@
                 </li>
                 <li>Télévision
                   <ul class="sub-menu">
-                    <li>Apple Music</li>
-                    <li>iTunes</li>
-                    <li>Home Pod</li>
-                    <li>iPod</li>
-                    <li>Gift Cards</li>
+                    <li>30 pouces et moins</li>
+                    <li>30 à 50 pouces</li>
+                    <li>Plus de 50 pouces</li>
+                    <li>Périphériques</li>
                   </ul>
                 </li>
                 <li>Audio/Hi-Fi
                   <ul class="sub-menu">
-                    <li>Apple TV</li>
-                    <li>tvOS</li>
-                    <li>Accessories</li>
-                    <li>Movies</li>
-                    <li>TV shows</li>
+                    <li>Enceintes</li>
+                    <li>Home-Cinema</li>
+                    <li>Casques/écouteurs</li>
+                    <li>Micros</li>
+                    <li>Autres</li>
                   </ul>
                 </li>
                 <li>Gaming
@@ -94,9 +84,44 @@
             </nav>
           </div>
   </header>
+
+  <!--MAIN-->
   <main>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="images/Carousel1.jpg" style="width:100%">
+        <div class="text">Caption Text</div>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="images/Carousel2.jpg" style="width:100%">
+        <div class="text">Caption Two</div>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="images/Carousel3.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+    
+      <!-- Boutons Carousel -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <!-- ronds carousel -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
   </main>
-  <!-- footer -->
+  
+  <!-- FOOTER -->
+
   <footer>
     <div id="footer">
       <div id="nous">
@@ -119,6 +144,7 @@
       </div>
     </div>
   </footer>
+  <script src="menu.js"></script>
 </body>
 
 </html>
