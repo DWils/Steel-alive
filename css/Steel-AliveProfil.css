@@ -133,14 +133,12 @@
   margin-top: 50px;
 }
 #nous {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
 }
 #cg {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
