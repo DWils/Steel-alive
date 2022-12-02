@@ -11,24 +11,170 @@
   <body>
     <div id="page">
       <div id="header"></div>
-      <div id="content"></div>
 
-      <label
-        type="text"
-        name="tous les produits"
-        placeholder="tous les produits"
-      ></label>
-      <label type="text" name="ordinateur" placeholder="ordinateur"></label>
-      <label type="text" name="téléphone" placeholder="téléphone"></label>
-      <label type="text" name="télévision" placeholder="télévision"></label>
-      <label
-        type="text"
-        name="éléctroménager"
-        placeholder="éléctroménager"
-      ></label>
-      <label type="text" name="audio" placeholder="audio"></label>
-      <label type="text" name="console" placeholder="console"></label>
-      <hr />
+
+
+
+    <div id="content">
+
+        <div id="filtremenu">
+          <h3>Filtre</h3>
+          <!-- <h4>Prix</h4>
+
+          à partir de 600€
+          à partir de 700€
+          à partir de 800€
+          à partir de 900€
+          à partir de 1000€
+          à partir de 1100€
+          à partir de 1200€
+          à partir de 1300€
+
+          <h4>Etat</h4>
+
+          parfait
+          bon état
+          correcte
+           -->
+          <h4>Marque</h4>
+
+          <label>
+            <input type="checkbox" id="hideapple" onclick="myFunction()">
+            Apple
+          </label>
+
+          <label>
+            <input type="checkbox" id="hidelenovo" onclick="myFunctionz()">
+            Hp
+          </label>
+<!-- 
+          <label>
+            <input type="checkbox" id="" onclick="myFunction()">
+            ChromeBook
+          </label>
+
+          <label>
+            <input type="checkbox" id="" onclick="myFunction()">
+            Dell
+          </label>
+
+          <label>
+            <input type="checkbox" id="" onclick="myFunction()">
+            Asus
+          </label>
+
+          <label>
+            <input type="checkbox" id="" onclick="myFunction()">
+            Acer
+          </label> -->
+
+       
+          
+
+
+         <!-- <h4>Date de sortie</h4> -->
+          <!-- 2022
+          2021
+          2020
+          2019
+          2018
+          2017
+          2016
+          2015
+          2014
+          2013
+          2012
+          2011
+          <h4>Taille d'écran</h4>
+          14 et moins"
+          15 a 16"
+          16 a 18"
+          <h4>Résolution d'écran</h4>
+          HD (1366 x 768)
+          HD+ (1600 x 900)
+          Full HD (1920 x 1080)
+          QHD (2560 x 1440)
+          <h4>Processeur</h4>
+          intel
+          amd
+          <h4>Carte graphique</h4>
+          Intel HD  
+          nvidia
+          amd
+          <h4>RAM</h4>
+          4
+          8
+          16
+          32
+          <h4>Capacité de stockage</h4>
+          -130
+          130-260
+          260-999
+          1-1.9
+          2++
+          <h4>Type de Stockage</h4>
+          ssd
+          hdd
+          hdd+ ssd
+          emmc
+          sshd
+          nvme -->
+        </div>
+
+        <div id="article">
+
+          <div class="laptop" class="apple" id="macbookair-m1">
+            <img src="images/macbook-air-m1.jpg" alt="img macbook m1">
+            <h3>Macbook air M1</h3>
+            <p class="parfait">parfait état</p>
+            <p class="prix">1200€</p>
+          </div>
+
+          <div class="laptop" class="lenovo" id="lenovo_thinkpad">
+            <img src="images/lenovo_thinkpad-l15.jpg" alt="lenovo thinkpadl15">
+            <h3>Lenovo ThinkPad L15</h3>
+            <p class="etat parfait">Très bon état</p>
+            <p class="prix">799,99€</p>
+          </div>
+          <div class="laptop" class="acer" id="acerAspire">
+            <img src="images/Acer Aspire 5 A515-54.jpg" alt="">
+            <h3>Acer Aspire 5 A515-54</h3>
+            <p class="correcte">correcte</p>
+            <p class="prix">580€</p>
+          </div>
+          <div class="laptop" class="asus" id="chromebook-C433TA">
+            <img src="images/Asus Chromebook C433TA.jpg" alt="chromebook">
+            <h3>Asus Chromebook C433TA</h3>
+            <p class="bon état">bon état</p>
+            <p class="prix">400€</p>
+          </div>
+
+          <div class="laptop" class="dell" id="dell_XPS">
+            <img src="images/Dell XPS 13 9305.jpg" alt="dell">
+            <h3>Dell XPS 13 9305</h3>
+            <p class="parfait état">parfait état</p>
+            <p class="prix">1400€</p>   
+          </div>
+
+          <div class="laptop" id="hp">
+            <img src="images/hp15s.jpg" alt="hp">
+            <h3>HP laptop 15S</h3>
+            <p class="correcte">Correcte</p>
+            <p class="prix">600€</p>
+          </div>
+        </div>
+
+        
+
+
+    </div>
+
+
+
+
+
+
+
 
       <!-- footer -->
       <footer>
@@ -50,23 +196,23 @@
           <div id="réseaux">
             <h2>Nos réseaux</h2>
             <a class="logor" href="https://fr-fr.facebook.com/" target="_blank"
-              ><img src="images/face.png" alt="face"
+              ><img class="imgfoot" src="images/face.png" alt="face"
             /></a>
             <a
               class="logor"
               href="https://www.instagram.com/?hl=fr"
               target="_blank"
-              ><img src="images/insta.png" alt="face"
-            /></a>
+              ><img class="imgfoot" src="images/insta.png" alt="face"/>
+            </a>
             <a
-              class="logor"
-              href="https://twitter.com/i/flow/login"
-              target="_blank"
-              ><img src="images/twit.png" alt="face"
-            /></a>
+              class="logor"href="https://twitter.com/i/flow/login"target="_blank"><img class="imgfoot" src="images/twit.png" alt="face"/>
+            </a>
           </div>
         </div>
       </footer>
     </div>
+
+
+    <script src="javascript/recherche.js"></script> 
   </body>
 </html>

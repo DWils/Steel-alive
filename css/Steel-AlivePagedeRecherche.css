@@ -7,13 +7,58 @@
   display: flex;
   flex-direction: column;
 }
-
+/* filtre et article */
 #content {
   flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  border: 5px solid rgba(168, 88, 88, 0.613);
+  width: 90%;
+  margin: auto;
+  justify-content: space-around;
+  align-items: flex-start;
+ 
 }
+#filtremenu {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  margin-top: 50px;
+  
+
+}
+
+#article{
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  margin: 50px;
+
+}
+.laptop{
+margin: 20px;
+}
+
+#macbookair-m1{
+  display: none;
+}
+#lenovo_thinkpad{
+  display: none;
+}
+
+img {
+  height: 130px;
+  width: auto;
+  
+}
+
+
+
+
+/* début Footer */
 #footer {
   border: 1px solid black;
-  background-color: azure;
+  background-color: rgba(91, 193, 193, 0.73);
 
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -55,7 +100,10 @@ h2 {
 .logor {
   align-self: center;
 }
-img {
+.imgfoot{
   height: 40px;
   width: auto;
+
 }
+
+/* fin footer */
