@@ -16,8 +16,24 @@
   #logo img
   {
       display: flex;
-      width: 50px;
-      height: 50px;
+      width: 90px;
+      height: 90px;
+  }
+  .icons {
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+    padding-top: 20px;
+  }
+  .icons img{
+    width: 35px;
+    height: 35px;
+  }
+  #Fav {
+    margin-right: 24px;
+  }
+  #Cart {
+    margin-right: 24px;
   }
   #searchBar{
       display: inline-block;
@@ -80,7 +96,9 @@
 
     #TitleDiY {
         display: flex;
-        font-size: xx-large;
+        font-weight: 600;
+        font-size: 40px;
+        font-family: 'Playfair Display';
         justify-content: center;
         text-align: center;
         margin-top: 20px;
@@ -133,46 +151,94 @@
     text-align: center;
     position: relative;
   }
+  #TV{
+    width: 450px;
+    height: 250px;
+    text-align: center;
+    position: relative;
+  }
+  #Audio{
+    width: 450px;
+    height: 250px;
+    text-align: center;
+    position: relative;
+  }
+  #Autres{
+    width: 450px;
+    height: 250px;
+    text-align: center;
+    position: relative;
+  }
+  
+  
   #PC img{
     max-width: 100%;
     max-height: 100%;
-    transition: transform .1s; /* Animation */
+    transition: transform .3s; /* Animation */
     
     }
   #Smartphone img{
     max-width: 100%;
     max-height: 100%;
-    transition: transform .1s;
+    transition: transform .3s;
     }
     
   #Laptop img{
         max-width: 100%;
         max-height: 100%;
-        transition: transform .1s;
+        transition: transform .3s;
     }  
   #Console img{
         max-width: 100%;
         max-height: 100%;
-        transition: transform .1s;
+        transition: transform .3s;
     }
+  #TV img{
+      max-width: 100%;
+      max-height: 100%;
+      transition: transform .3s;
+  }
+  #Audio img{
+    max-width: 100%;
+    max-height: 100%;
+    transition: transform .3s;
+}
+#Autres img{
+  max-width: 100%;
+  max-height: 100%;
+  transition: transform .3s;
+}
 
     
   #PC img:hover {
-    transform: scale(1.2); /* (fonction de zoom réglable) */
+    transform: scale(1.1); /* (fonction de zoom réglable) */
     opacity: 0.4;
   }
   #Smartphone img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     opacity: 0.4; /* (fonction de zoom réglable) */
   }
   #Laptop img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     opacity: 0.4; /* (fonction de zoom réglable) */
   }
   #Console img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     opacity: 0.4; /* (fonction de zoom réglable) */
   }
+  #TV img:hover {
+    transform: scale(1.1);
+    opacity: 0.4; /* (fonction de zoom réglable) */
+  }
+  #Audio img:hover {
+    transform: scale(1.1);
+    opacity: 0.4; /* (fonction de zoom réglable) */
+  }
+  #Autres img:hover {
+    transform: scale(1.1);
+    opacity: 0.4; /* (fonction de zoom réglable) */
+  }
+
 
   #maincatitle1{
     position: absolute;
@@ -239,6 +305,54 @@
     -ms-transform: translate(-50%, -50%);
     z-index: 1
   }
+  #maincatitle5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #000000;
+    padding: 10px 30px;
+    opacity: 0.6;
+    transition: .5s ease;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    z-index: 1
+  }
+  #maincatitle6{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #000000;
+    padding: 10px 30px;
+    opacity: 0.6;
+    transition: .5s ease;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    z-index: 1
+  }
+  #maincatitle7{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #000000;
+    padding: 10px 30px;
+    opacity: 0.6;
+    transition: .5s ease;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    z-index: 1
+  }
 
   #PC:hover #maincatitle1{
     opacity: 1;
@@ -252,12 +366,25 @@
   #Console:hover #maincatitle4{
     opacity: 1;
   }
+  #TV:hover #maincatitle5{
+    opacity: 1;
+  }
+  #Audio:hover #maincatitle6{
+    opacity: 1;
+  }
+  #Autres:hover #maincatitle7{
+    opacity: 1;
+  }
+
+
   h3
   {
   font-size: x-large;
+  font-family: 'Playfair Display';
   color: white;
   }
-  h{
+  h
+  {
     text-align: center;
     margin: auto;
     display: flex;
