@@ -1,38 +1,310 @@
 *{
     margin: 0;
-}
-#titre_principal
-{
+    padding: 0;
+    z-index: 3;
+    box-sizing: border-box;
+  }
+  
+  /*HEADER*/
+  
+  #titre_principal
+  {
+      display: flex;
+      flex-direction: row;
+      padding: 10px;
+  }
+  #logo img
+  {
+      display: flex;
+      width: 50px;
+      height: 50px;
+  }
+  #searchBar{
+      display: inline-block;
+      justify-content: center;
+      margin: auto;
+  }
+    .menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .menu > li {
+      color: white;
+      width: 140px;
+      height: 40px;
+      line-height: 40px;
+      background:#3D5467,rgb(255,255,255);
+      cursor: pointer;
+      font-size: 17px;
+      text-align: center;
+      border-radius: 30px;
+      list-style-type: none;
+    }
+    .sub-menu {
+      transform: scale(0);
+      transform-origin: top center;
+      z-index: 2;
+    }
+    .sub-menu li {
+      font-size: 14px;
+      background: #3D5467;
+      padding: 8px 0;
+      color: white;
+      border-bottom: 1px solid rgba(197, 203, 219, 0.8);
+      transform: scale(0);
+      transform-origin: top center;
+      border-radius: 6px;
+      
+    }
+    .sub-menu li:last-child {
+      border-bottom: 0;
+    }
+    .sub-menu li:hover {
+      background: rgba(97, 126, 213, 0.8);
+    }
+    .menu > li:hover .sub-menu li{
+      transform: scale(1);
+    }
+    .menu > li:hover .sub-menu {
+      transform: scale(1);
+    }
+    .navbox{
+    margin-left: 50px;
+    margin-right: 50px;
+    background:#3D5467;
+    border-radius: 6px;
+    }
+
+    /*Titre DiY Tutos*/
+
+    #TitleDiY {
+        display: flex;
+        font-size: xx-large;
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    /*MAINCATBOX*/
+
+  .break{
+    flex-basis: 100%;
+    width: 0;
+  }
+
+  .Maincatbox{
     display: flex;
-    flex-direction: row;
-    padding: 10px;
-}
-#logo img
-{
-    display: flex;
-    width: 50px;
-}
-#searchBar{
-    display: flexbox;
-    flex-direction: row;
-    justify-content: center;
+    flex-wrap: wrap;
     margin: auto;
-}
-.navbar{
-    display: flex;
+    position: relative;
     flex-direction: row;
-    margin: auto;
-    justify-content: center;
+    align-items: center;
     justify-content: space-around;
-    padding: 20px 20px;
-}
-hr{
-    position: sticky;
-}
-.dropdown:hover .dropdown-menu{
-    display: block;
-    margin-top: 0;
- }
-#produits, #pc{
-    display: inline;
-}
+    width: 1000px;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    z-index: 1;
+  }
+  #PC{
+    width: 450px;
+    height: 250px;
+    text-align: center;
+    position: relative;
+  }
+  #Smartphone{
+    width: 450px;
+    height: 250px;
+    text-align: center;
+    position: relative;
+  }
+  #Laptop{
+    width: 450px;
+    height: 250px;
+    text-align: center;
+    position: relative;
+  }
+  #Console{
+    width: 450px;
+    height: 250px;
+    text-align: center;
+    position: relative;
+  }
+  #PC img{
+    max-width: 100%;
+    max-height: 100%;
+    transition: transform .1s; /* Animation */
+    
+    }
+  #Smartphone img{
+    max-width: 100%;
+    max-height: 100%;
+    transition: transform .1s;
+    }
+    
+  #Laptop img{
+        max-width: 100%;
+        max-height: 100%;
+        transition: transform .1s;
+    }  
+  #Console img{
+        max-width: 100%;
+        max-height: 100%;
+        transition: transform .1s;
+    }
+
+    
+  #PC img:hover {
+    transform: scale(1.2); /* (fonction de zoom réglable) */
+    opacity: 0.4;
+  }
+  #Smartphone img:hover {
+    transform: scale(1.2);
+    opacity: 0.4; /* (fonction de zoom réglable) */
+  }
+  #Laptop img:hover {
+    transform: scale(1.2);
+    opacity: 0.4; /* (fonction de zoom réglable) */
+  }
+  #Console img:hover {
+    transform: scale(1.2);
+    opacity: 0.4; /* (fonction de zoom réglable) */
+  }
+
+  #maincatitle1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #000000;
+    padding: 10px 30px;
+    opacity: 0.6;
+    transition: .5s ease;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    z-index: 1
+  }
+
+  #maincatitle2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #000000;
+    padding: 10px 30px;
+    opacity: 0.6;
+    transition: .5s ease;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    z-index: 1
+  }
+  #maincatitle3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #000000;
+    padding: 10px 30px;
+    opacity: 0.6;
+    transition: .5s ease;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    z-index: 1
+  }
+  #maincatitle4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #000000;
+    padding: 10px 30px;
+    opacity: 0.6;
+    transition: .5s ease;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    z-index: 1
+  }
+
+  #PC:hover #maincatitle1{
+    opacity: 1;
+  }
+  #Smartphone:hover #maincatitle2{
+    opacity: 1;
+  }
+  #Laptop:hover #maincatitle3{
+    opacity: 1;
+  }
+  #Console:hover #maincatitle4{
+    opacity: 1;
+  }
+  h3
+  {
+  font-size: x-large;
+  color: white;
+  }
+  h{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+
+    /*Footer*/
+
+  #footer {
+    background-color: #3D5467;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+  }
+  #nous {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+  }
+  #cg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+  }
+  #reseaux {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  h2 {
+    color: rgb(0, 183, 255);
+    text-align: center;
+  }
+  .lien {
+    text-decoration: none !important;
+    color: black;
+  }
+  .logor {
+    align-self: center;
+  }
+  .reseausocio img {
+    height: 40px;
+    width: auto;
+  }
+  
