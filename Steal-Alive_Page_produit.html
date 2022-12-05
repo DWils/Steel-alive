@@ -8,7 +8,93 @@
     <link rel="stylesheet" href="css/Page_produit.css">
   </head>
   <body>
-    <header></header>
+    <header> 
+      <div id="header">
+        <div id="titre_principal">
+          <div id="logo">
+            <img src="images/logo.png" alt="logosite" />
+            <a>Steel Alive</a>
+          </div>
+          <div id="searchBar">
+            <form method="post" action="traitement.php">
+              <p>
+                <label for="searchBar">C'est parti:</label>
+                <input
+                  type="text"
+                  name="searchBar"
+                  id="searchBar"
+                  placeholder="Iphone 14 Pro"
+                  size="30"
+                  maxlength="10"
+                />
+              </p>
+            </form>
+          </div>
+          <div class="icons">
+            <!--ajouter lien ici pour icône favoris-->
+            <img src="images/favorite.png" />
+            <!--ajouter lien ici pour icône panier-->
+            <img src="images/cart.png" />
+            <a href="Steel-AliveProfil.html">
+              <img src="images/profile.png"
+            /></a>
+          </div>
+        </div>
+        <!--Navbar-->
+        <nav>
+          <div class="navbox">
+            <ul class="menu">
+              <li>
+                Ordinateurs
+                <ul class="sub-menu">
+                  <li>Portables/ultrabook</li>
+                  <li>Composants</li>
+                  <li>Écrans</li>
+                  <li>Autres périphériques</li>
+                  <li>Divers</li>
+                </ul>
+              </li>
+              <li>
+                Smartphones
+                <ul class="sub-menu">
+                  <li>Ios</li>
+                  <li>Android</li>
+                  <li>Périphériques</li>
+                </ul>
+              </li>
+              <li>
+                Télévision
+                <ul class="sub-menu">
+                  <li>30 pouces et moins</li>
+                  <li>30 à 50 pouces</li>
+                  <li>Plus de 50 pouces</li>
+                  <li>Périphériques</li>
+                </ul>
+              </li>
+              <li>
+                Audio/Hi-Fi
+                <ul class="sub-menu">
+                  <li>Enceintes</li>
+                  <li>Home-Cinema</li>
+                  <li>Casques/écouteurs</li>
+                  <li>Micros</li>
+                  <li>Autres</li>
+                </ul>
+              </li>
+              <li>
+                Gaming
+                <ul class="sub-menu">
+                  <li>Nintendo</li>
+                  <li>Playstation</li>
+                  <li>Xbox</li>
+                  <li>Autres</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
 
 <!-- article selectionné -->
 <div id="box_produit">
@@ -135,5 +221,42 @@
     <div>
     <h2 id="titre-desc">Avis</h2>
     </div>
+
+    <!--FOOTER-->
+
+    <footer>
+      <div id="footer">
+        <div id="nous">
+          <h2>A propos de nous</h2>
+          <a class="lien" href="Steel-AliveAide.html">Qui sommes nous?</a>
+          <a class="lien" href="Steel-AliveDIYTutos.html"
+            >Le Do It Yourself (DIY)</a
+          >
+        </div>
+        <div id="cg">
+          <a class="lien" href="CGU.htlm">Conditions générales d'utilsateur</a>
+          <a class="lien" href="CGV.htlm">Conditions générales de vente</a>
+          <p>@2022 Steel-Alive</p>
+        </div>
+        <div id="réseaux">
+          <h2>Nos réseaux</h2>
+          <a class="logor" href="https://fr-fr.facebook.com/" target="_blank"
+            ><img class="reseausocio" src="images/face.png" alt="face"
+          /></a>
+          <a
+            class="logor"
+            href="https://www.instagram.com/?hl=fr"
+            target="_blank"
+            ><img class="reseausocio" src="images/insta.png" alt="face"
+          /></a>
+          <a
+            class="logor"
+            href="https://twitter.com/i/flow/login"
+            target="_blank"
+            ><img class="reseausocio" src="images/twit.png" alt="face"
+          /></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
