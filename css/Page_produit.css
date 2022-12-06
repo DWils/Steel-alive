@@ -6,7 +6,6 @@
 
 /* produit */
 #box_produit {
-  border: 2px solid black;
   width: 80%;
   display: flex;
   flex-direction: row;
@@ -14,8 +13,15 @@
   justify-content: left;
   flex-wrap: nowrap;
 }
-
+h5 {
+  font-size: 50px;
+  text-decoration: underline;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
 #produit {
+  height: 500px;
+  padding: 0px;
 }
 #description {
   background-color: rgb(0, 183, 255);
@@ -23,14 +29,14 @@
   border-radius: 10px;
   height: fit-content;
   margin-left: 100px;
-  margin-top: 30px;
+  margin-top: 80px;
 }
 ul {
   margin-left: 20px;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 25px;
 }
 #suggestion {
   border: 3px solid black;
@@ -51,7 +57,6 @@ h2 {
 #descriptif {
   display: flex;
   flex-direction: column;
-  border: 1px black solid;
   width: 80%;
   margin: auto;
 }

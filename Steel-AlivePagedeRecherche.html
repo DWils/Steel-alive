@@ -1,218 +1,288 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/Steel-AlivePagedeRecherche.css" />
-  </head>
 
-  <body>
-    <div id="page">
-      <div id="header"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/Steel-AlivePagedeRecherche.css" />
+</head>
+
+<body>
+  <div id="page">
+    <div id="header">
+
+    </div>
 
 
 
 
     <div id="content">
 
-        <div id="filtremenu">
-          <h3>Filtre</h3>
-          <!-- <h4>Prix</h4>
+      <div id="filtremenu">
+        <h5>Filtre</h5>
+        <h4>Tous les produits</h4>
+        <label>
+          <input type="checkbox" id="tlp" onclick="tlp()"> Tous les produits
+        </label>
+        <h4>Prix</h4>
+        <label>
+          <input type="checkbox" name="" id=""> à partir de 600€
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> à partir de 700€
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> à partir de 800€
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> à partir de 900€
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> à partir de 1000€
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> à partir de 1100€
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> à partir de 1200€
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> à partir de 1300€
+        </label>
 
-          à partir de 600€
-          à partir de 700€
-          à partir de 800€
-          à partir de 900€
-          à partir de 1000€
-          à partir de 1100€
-          à partir de 1200€
-          à partir de 1300€
+        <h4>Etat</h4>
+        <label>
+          <input type="checkbox" name="" id=""> Parfait
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> Bon état
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> Correcte
+        </label>
 
-          <h4>Etat</h4>
+        <h4>Marque</h4>
+        <label>
+          <input type="checkbox" id="hideapple" onclick="myFunction()">
+          Apple
+        </label>
+        <label>
+          <input type="checkbox" id="hidelenovo" onclick="lenovo()">
+          Hp
+        </label>
+        <label>
+          <input type="checkbox" id="hidechrome" onclick="chrome()">
+          ChromeBook
+        </label>
+        <label>
+          <input type="checkbox" id="hidedell" onclick="dell()">
+          Dell
+        </label>
+        <label>
+          <input type="checkbox" id="hideasus" onclick="asus()">
+          Asus
+        </label>
+        <label>
+          <input type="checkbox" id="hideacer" onclick="acer()">
+          Acer
+        </label>
 
-          parfait
-          bon état
-          correcte
-           -->
-          <h4>Marque</h4>
+        <h4>Date de sortie</h4>
+        <label for="">
+          <input type="checkbox" name="" id="">
+          2022</label>
+        <label for="">
+          <input type="checkbox" name="" id="">
+          2021</label>
+        <label for="">
+          <input type="checkbox" name="" id=""> 2020</label>
+        <h4>Taille d'écran</h4>
+        <label for="">
+          <input type="checkbox" name="" id="">
+          14 et moins"</label>
+        <label>
+          <input type="checkbox" name="" id=""> 15 à 16"</label>
+        <label>
+          <input type="checkbox" name="" id=""> 16 à 18"</label>
 
-          <label>
-            <input type="checkbox" id="hideapple" onclick="myFunction()">
-            Apple
-          </label>
+        <h4>Résolution d'écran</h4>
+        <label>
+          <input type="checkbox" name="" id=""> HD (1366 x 768) </label>
+        <label>
+          <input type="checkbox" name="" id=""> HD+ (1600 x 900)</label>
+        <label>
+          <input type="checkbox" name="" id=""> Full HD (1920 x 1080)</label>
+        <label>
+          <input type="checkbox" name="" id=""> QHD (2560 x 1440)</label>
 
-          <label>
-            <input type="checkbox" id="hidelenovo" onclick="myFunctionz()">
-            Hp
-          </label>
-<!-- 
-          <label>
-            <input type="checkbox" id="" onclick="myFunction()">
-            ChromeBook
-          </label>
+        <h4>Processeur</h4>
+        <label>
+          <input type="checkbox" name="" id=""> Intel
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> Amd
+        </label>
 
-          <label>
-            <input type="checkbox" id="" onclick="myFunction()">
-            Dell
-          </label>
+        <h4>Carte graphique</h4>
+        <label>
+          <input type="checkbox" name="" id=""> Intel HD
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> Nvidia
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> Amd
+        </label>
 
-          <label>
-            <input type="checkbox" id="" onclick="myFunction()">
-            Asus
-          </label>
+        <h4>RAM</h4>
+        <label>
+          <input type="checkbox" name="" id=""> 4
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> 8
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> 16
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> 32
+        </label>
+        <h4>Capacité de stockage</h4>
+        <label>
+          <input type="checkbox" name="" id=""> -130
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> 130-260
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> 260-999
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> 1-1.9
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> 2++
+        </label>
 
-          <label>
-            <input type="checkbox" id="" onclick="myFunction()">
-            Acer
-          </label> -->
+        <h4>Type de Stockage</h4>
+        <label>
+          <input type="checkbox" name="" id=""> Ssd
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> Hdd
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> Hdd+ ssd
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> Emmc
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> Sshd
+        </label>
+        <label>
+          <input type="checkbox" name="" id=""> Nvme
+        </label>
 
-       
-          
+      </div>
+
+      <div id="article">
 
 
-         <!-- <h4>Date de sortie</h4> -->
-          <!-- 2022
-          2021
-          2020
-          2019
-          2018
-          2017
-          2016
-          2015
-          2014
-          2013
-          2012
-          2011
-          <h4>Taille d'écran</h4>
-          14 et moins"
-          15 a 16"
-          16 a 18"
-          <h4>Résolution d'écran</h4>
-          HD (1366 x 768)
-          HD+ (1600 x 900)
-          Full HD (1920 x 1080)
-          QHD (2560 x 1440)
-          <h4>Processeur</h4>
-          intel
-          amd
-          <h4>Carte graphique</h4>
-          Intel HD  
-          nvidia
-          amd
-          <h4>RAM</h4>
-          4
-          8
-          16
-          32
-          <h4>Capacité de stockage</h4>
-          -130
-          130-260
-          260-999
-          1-1.9
-          2++
-          <h4>Type de Stockage</h4>
-          ssd
-          hdd
-          hdd+ ssd
-          emmc
-          sshd
-          nvme -->
+        <div class="laptop" class="apple" id="macbookair-m1">
+          <img src="images/macbook-air-m1.jpg" alt="img macbook m1">
+          <h3>Macbook air M1</h3>
+          <p class="parfait">Parfait état</p>
+          <p class="prix">1200€</p>
         </div>
 
-        <div id="article">
 
-          <div class="laptop" class="apple" id="macbookair-m1">
-            <img src="images/macbook-air-m1.jpg" alt="img macbook m1">
-            <h3>Macbook air M1</h3>
-            <p class="parfait">parfait état</p>
-            <p class="prix">1200€</p>
-          </div>
+        <div class="laptop" class="lenovo" id="lenovo_thinkpad">
+          <img src="images/lenovo_thinkpad-l15.jpg" alt="lenovo thinkpadl15">
+          <h3>Lenovo ThinkPad L15</h3>
+          <p class="etat parfait">Très bon état</p>
+          <p class="prix">799,99€</p>
+        </div>
 
-          <div class="laptop" class="lenovo" id="lenovo_thinkpad">
-            <img src="images/lenovo_thinkpad-l15.jpg" alt="lenovo thinkpadl15">
-            <h3>Lenovo ThinkPad L15</h3>
-            <p class="etat parfait">Très bon état</p>
-            <p class="prix">799,99€</p>
-          </div>
-          <div class="laptop" class="acer" id="acerAspire">
-            <img src="images/Acer Aspire 5 A515-54.jpg" alt="">
-            <h3>Acer Aspire 5 A515-54</h3>
-            <p class="correcte">correcte</p>
-            <p class="prix">580€</p>
-          </div>
+
+        <div class="laptop" class="acer" id="acerAspire">
+          <img src="images/Acer Aspire 5 A515-54.jpg" alt="">
+          <h3>Acer Aspire 5 A515-54</h3>
+          <p class="correcte">Correcte</p>
+          <p class="prix">580€</p>
+        </div>
+
+
+        <a href="Steal-Alive_Page_produit.html">
           <div class="laptop" class="asus" id="chromebook-C433TA">
-            <img src="images/Asus Chromebook C433TA.jpg" alt="chromebook">
+            <img src="images/produit.png" alt="chromebook">
             <h3>Asus Chromebook C433TA</h3>
-            <p class="bon état">bon état</p>
+            <p class="bon état">Bon état</p>
             <p class="prix">400€</p>
           </div>
+        </a>
 
-          <div class="laptop" class="dell" id="dell_XPS">
-            <img src="images/Dell XPS 13 9305.jpg" alt="dell">
-            <h3>Dell XPS 13 9305</h3>
-            <p class="parfait état">parfait état</p>
-            <p class="prix">1400€</p>   
-          </div>
+        <div class="laptop" class="dell" id="dell_XPS">
+          <img src="images/Dell XPS 13 9305.jpg" alt="dell">
+          <h3>Dell XPS 13 9305</h3>
+          <p class="parfait état">Parfait état</p>
+          <p class="prix">1400€</p>
 
-          <div class="laptop" id="hp">
-            <img src="images/hp15s.jpg" alt="hp">
-            <h3>HP laptop 15S</h3>
-            <p class="correcte">Correcte</p>
-            <p class="prix">600€</p>
-          </div>
         </div>
 
-        
-
-
+        <div class="laptop" class="asus" id="hp">
+          <img src="images/hp15s.jpg" alt="hp">
+          <h3>HP laptop 15S</h3>
+          <p class="correcte">Correcte</p>
+          <p class="prix">600€</p>
+        </div>
+      </div>
     </div>
 
 
 
 
+  </div>
 
 
 
 
-      <!-- footer -->
-      <footer>
-        <div id="footer">
-          <div id="nous">
-            <h2>A propos de nous</h2>
-            <a class="lien" href="Steel-AliveAide.html">Qui sommes nous?</a>
-            <a class="lien" href="Steel-AliveDIYTutos.html"
-              >Le Do It Yourself (DIY)</a
-            >
-          </div>
-          <div id="cg">
-            <a class="lien" href="CGU.htlm"
-              >Conditions générales d'utilsateur</a
-            >
-            <a class="lien" href="CGV.htlm">Conditions générales de vente</a>
-            <p>@2022 Steel-Alive</p>
-          </div>
-          <div id="réseaux">
-            <h2>Nos réseaux</h2>
-            <a class="logor" href="https://fr-fr.facebook.com/" target="_blank"
-              ><img class="imgfoot" src="images/face.png" alt="face"
-            /></a>
-            <a
-              class="logor"
-              href="https://www.instagram.com/?hl=fr"
-              target="_blank"
-              ><img class="imgfoot" src="images/insta.png" alt="face"/>
-            </a>
-            <a
-              class="logor"href="https://twitter.com/i/flow/login"target="_blank"><img class="imgfoot" src="images/twit.png" alt="face"/>
-            </a>
-          </div>
-        </div>
-      </footer>
+
+
+
+
+  <!-- footer -->
+  <footer>
+    <div id="footer">
+      <div id="nous">
+        <h2>A propos de nous</h2>
+        <a class="lien" href="Steel-AliveAide.html">Qui sommes nous?</a>
+        <a class="lien" href="Steel-AliveDIYTutos.html">Le Do It Yourself (DIY)</a>
+      </div>
+      <div id="cg">
+        <a class="lien" href="CGU.htlm">Conditions générales d'utilsateur</a>
+        <a class="lien" href="CGV.htlm">Conditions générales de vente</a>
+        <p>@2022 Steel-Alive</p>
+      </div>
+      <div id="réseaux">
+        <h2>Nos réseaux</h2>
+        <a class="logor" href="https://fr-fr.facebook.com/" target="_blank"><img class="imgfoot" src="images/face.png"
+            alt="face" /></a>
+        <a class="logor" href="https://www.instagram.com/?hl=fr" target="_blank"><img class="imgfoot"
+            src="images/insta.png" alt="face" />
+        </a>
+        <a class="logor" href="https://twitter.com/i/flow/login" target="_blank"><img class="imgfoot"
+            src="images/twit.png" alt="face" />
+        </a>
+      </div>
     </div>
+  </footer>
+  </div>
 
 
-    <script src="javascript/recherche.js"></script> 
-  </body>
+  <script src="javascript/recherche.js"></script>
+</body>
+
 </html>
