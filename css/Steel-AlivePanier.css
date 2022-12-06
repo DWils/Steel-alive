@@ -503,7 +503,7 @@ aside {
   }
 }
 
-/*Footer*/
+  /*Footer*/
 
   #footer {
     background-color: #3D5467;
@@ -528,7 +528,6 @@ aside {
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: space-between;
   }
   h2 {
     color: rgb(0, 183, 255);
@@ -538,4 +537,13 @@ aside {
     text-decoration: none !important;
     color: black;
   }
+  .logor {
+    align-self: center;
+  }
+  .iconreso {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
 
