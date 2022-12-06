@@ -4,7 +4,7 @@
 }
 
 /*HEADER*/
-
+  
 #titre_principal
 {
     display: flex;
@@ -14,8 +14,24 @@
 #logo img
 {
     display: flex;
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+.icons img{
+  width: 35px;
+  height: 35px;
+}
+#Fav {
+  margin-right: 24px;
+}
+#Cart {
+  margin-right: 24px;
 }
 #searchBar{
     display: inline-block;
@@ -42,6 +58,7 @@
   .sub-menu {
     transform: scale(0);
     transform-origin: top center;
+    z-index: 2;
   }
   .sub-menu li {
     font-size: 14px;
@@ -52,6 +69,7 @@
     transform: scale(0);
     transform-origin: top center;
     border-radius: 6px;
+    
   }
   .sub-menu li:last-child {
     border-bottom: 0;
@@ -71,6 +89,8 @@
   background:#3D5467;
   border-radius: 6px;
   }
+
+  /*Body*/
 
 #conteneur {
     display: flex;
