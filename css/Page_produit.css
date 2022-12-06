@@ -3,8 +3,8 @@
   padding: 0;
 }
 
-/* header */
-
+/*HEADER*/
+  
 #titre_principal
 {
     display: flex;
@@ -14,8 +14,24 @@
 #logo img
 {
     display: flex;
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+.icons img{
+  width: 35px;
+  height: 35px;
+}
+#Fav {
+  margin-right: 24px;
+}
+#Cart {
+  margin-right: 24px;
 }
 #searchBar{
     display: inline-block;
@@ -53,6 +69,7 @@
     transform: scale(0);
     transform-origin: top center;
     border-radius: 6px;
+    list-style-type: none;
     
   }
   .sub-menu li:last-child {
@@ -72,7 +89,6 @@
   margin-right: 50px;
   background:#3D5467;
   border-radius: 6px;
-  margin-bottom: 50px;
   }
 
 /* produit */
@@ -139,15 +155,13 @@ h4 {
 }
 
 /*Footer*/
+
 #footer {
-  border: 1px solid black;
   background-color: #3D5467;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 50px;
+  height: 100px;
 }
 #nous {
   display: flex;
@@ -162,7 +176,6 @@ h4 {
   text-align: center;
 }
 #reseaux {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -178,7 +191,8 @@ h2 {
 .logor {
   align-self: center;
 }
-.reseausocio img {
-  height: 40px;
-  width: auto;
+.iconreso {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
