@@ -5,43 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/Steel-AlivePanier.css" />
+    <link rel="stylesheet" href="css/scss/Steel-AlivePanier.scss" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display"
+    />
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0">
     <title>Panier</title>
   </head>
   <body>
     <!-- HEADER-->
 
-    <header>
-      <div id="header">
-        <div id="titre_principal">
-          <div id="logo">
-            <img src="images/logo.png" alt="logosite" />
-            <a>Steel Alive</a>
-          </div>
-          <div id="searchBar">
-            <form method="post" action="traitement.php">
-              <p>
-                <label for="searchBar">C'est parti:</label>
-                <input
-                  type="text"
-                  name="searchBar"
-                  id="searchBar"
-                  placeholder="Iphone 14 Pro"
-                  size="30"
-                  maxlength="10"
-                />
-              </p>
-            </form>
-          </div>
-          <div class="icons">
-            <!--ajouter lien ici pour icône favoris-->
-            <img src="images/favorite.png" />
-            <!--ajouter lien ici pour icône panier-->
-            <img src="images/cart.png" />
-            <a href="Steel-AliveProfil.html">
-              <img src="images/profile.png"
-            /></a>
-          </div>
+ <body>
+  <header>
+    <div id="header">
+      <div id="titre_principal">
+        <div id="logo">
+          <a href="Steel-Alive.html">
+          <img src="images/logo.png" alt="logosite" />
+          <a>Steel Alive</a></a>
         </div>
+        <div id="searchBar">
+          <form method="post" action="traitement.php">
+            <p>
+              <label for="searchBar">C'est parti:</label>
+              <input
+                type="text"
+                name="searchBar"
+                id="searchBar"
+                placeholder="Iphone 14 Pro"
+                size="30"
+                maxlength="10"
+              />
+            </p>
+          </form>
+        </div>
+        <div class="icons">
+          <!--ajouter lien ici pour icône favoris-->
+          <div id="Fav">
+          <img src="images/favorite.png" /></div>
+          <!--ajouter lien ici pour icône panier-->
+          <div id="Cart">
+          <img src="images/cart.png" /></div>
+          <div id="Profil">
+          <a href="Steel-AliveProfil.html">
+            <img src="images/profile.png"></div>
+          </a>
+        </div>
+      </div>
         <!--Navbar-->
         <nav>
           <div class="navbox">
@@ -97,41 +108,135 @@
         </nav>
       </div>
     </header>
-    <!-- FOOTER -->
 
-    <footer>
-      <div id="footer">
-        <div id="nous">
-          <h2>A propos de nous</h2>
-          <a class="lien" href="Steel-AliveAide.html">Qui sommes nous?</a>
-          <a class="lien" href="Steel-AliveDIYTutos.html"
-            >Le Do It Yourself (DIY)</a
-          >
+    <!--PANIER-->
+    <main>
+      <div class="basket">
+        <div class="basket-module">
+          <label for="promo-code">Entrer code promo:</label>
+          <input id="promo-code" type="text" name="promo-code" maxlength="5" class="promo-code-field">
+          <button class="promo-code-cta">Appliquer</button>
         </div>
-        <div id="cg">
-          <a class="lien" href="CGU.htlm">Conditions générales d'utilsateur</a>
-          <a class="lien" href="CGV.htlm">Conditions générales de vente</a>
-          <p>@2022 Steel-Alive</p>
+        <div class="basket-labels">
+          <ul>
+            <li class="item item-heading">Produit</li>
+            <li class="price">Prix</li>
+            <li class="quantity">Quantité</li>
+            <li class="subtotal">Sous-total</li>
+          </ul>
         </div>
-        <div id="réseaux">
-          <h2>Nos réseaux</h2>
-          <a class="logor" href="https://fr-fr.facebook.com/" target="_blank"
-            ><img class="reseausocio" src="images/face.png" alt="face"
-          /></a>
-          <a
-            class="logor"
-            href="https://www.instagram.com/?hl=fr"
-            target="_blank"
-            ><img class="reseausocio" src="images/insta.png" alt="face"
-          /></a>
-          <a
-            class="logor"
-            href="https://twitter.com/i/flow/login"
-            target="_blank"
-            ><img class="reseausocio" src="images/twit.png" alt="face"
-          /></a>
+        <div class="basket-product">
+          <div class="item">
+            <div class="product-image">
+              <img src="http://placehold.it/120x166" alt="Placholder Image 2" class="product-frame">
+            </div>
+            <div class="product-details">
+              <h1><strong><span class="item-quantity">4</span> x Eliza J</strong> Lace Sleeve Cuff Dress</h1>
+              <p><strong>Navy, Size 18</strong></p>
+              <p>Product Code - 232321939</p>
+            </div>
+          </div>
+          <div class="price">26.00</div>
+          <div class="quantity">
+            <input type="number" value="4" min="1" class="quantity-field">
+          </div>
+          <div class="subtotal">104.00</div>
+          <div class="remove">
+            <button>Supprimer</button>
+          </div>
+        </div>
+        <div class="basket-product">
+          <div class="item">
+            <div class="product-image">
+              <img src="http://placehold.it/120x166" alt="Placholder Image 2" class="product-frame">
+            </div>
+            <div class="product-details">
+              <h1><strong><span class="item-quantity">1</span> x Whistles</strong> Amella Lace Midi Dress</h1>
+              <p><strong>Navy, Size 10</strong></p>
+              <p>Product Code - 232321939</p>
+            </div>
+          </div>
+          <div class="price">26.00</div>
+          <div class="quantity">
+            <input type="number" value="1" min="1" class="quantity-field">
+          </div>
+          <div class="subtotal">26.00</div>
+          <div class="remove">
+            <button>Supprimer</button>
+          </div>
         </div>
       </div>
-    </footer>
+      <aside>
+        <div class="summary">
+          <div class="summary-total-items"><span class="total-items"></span> Produits dans le panier</div>
+          <div class="summary-subtotal">
+            <div class="subtotal-title">Sous-total</div>
+            <div class="subtotal-value final-value" id="basket-subtotal">130.00</div>
+            <div class="summary-promo hide">
+              <div class="promo-title">Promotion</div>
+              <div class="promo-value final-value" id="basket-promo"></div>
+            </div>
+          </div>
+          <div class="summary-delivery">
+            <select name="delivery-collection" class="summary-delivery-selection">
+                <option value="0" selected="selected">Envoi ou point relais ?</option>
+               <option value="collection">Récupérer en point relais</option>
+               <option value="first-class">Rapide</option>
+               <option value="second-class">Normal</option>
+               <option value="signed-for">Économique</option>
+            </select>
+          </div>
+          <div class="summary-total">
+            <div class="total-title">Total</div>
+            <div class="total-value final-value" id="basket-total">130.00</div>
+          </div>
+          <div class="summary-checkout">
+            <button class="checkout-cta">Payer</button>
+          </div>
+        </div>
+      </aside>
+    </main>
+  
+
+
+   <!-- FOOTER -->
+
+   <footer>
+    <div id="footer">
+      <div id="nous">
+        <h2>A propos de nous</h2>
+        <a class="lien" href="Steel-AliveAide.html">Qui sommes nous?</a>
+        <a class="lien" href="Steel-AliveDIYTutos.html"
+          >Le Do It Yourself (DIY)</a
+        >
+      </div>
+      <div id="cg">
+        <a class="lien" href="CGU.htlm">Conditions générales d'utilsateur</a>
+        <a class="lien" href="CGV.htlm">Conditions générales de vente</a>
+        <p>@2022 Steel-Alive</p>
+      </div>
+      <div id="reseaux">
+        <h2>Nos réseaux</h2>
+        <div class="iconreso">
+        <a class="logor" href="https://fr-fr.facebook.com/" target="_blank"
+          ><img class="reseausocio" src="images/face.png" alt="face"
+        /></a>
+        <a
+          class="logor"
+          href="https://www.instagram.com/?hl=fr"
+          target="_blank"
+          ><img class="reseausocio" src="images/insta.png" alt="face"
+        /></a>
+        <a
+          class="logor"
+          href="https://twitter.com/i/flow/login"
+          target="_blank"
+          ><img class="reseausocio" src="images/twit.png" alt="face"
+        /></a>
+      </div>
+    </div>
+    </div>
+  </footer>
+    <script src="Panier.js"></script>
   </body>
 </html>
