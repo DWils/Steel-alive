@@ -6,16 +6,22 @@
 }
 
 /*HEADER*/
-
-#titre_principal {
-  display: flex;
-  flex-direction: row;
-  padding: 10px;
+  
+#titre_principal
+{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
 }
-#logo img {
-  display: flex;
-  width: 90px;
-  height: 90px;
+#logo img
+{
+    display: flex;
+    width: 90px;
+    height: 90px;
+    margin-left:40px;
+}
+#logo a{
+  margin-left: 45px;
 }
 .icons {
   display: flex;

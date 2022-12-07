@@ -16,6 +16,10 @@
     display: flex;
     width: 90px;
     height: 90px;
+    margin-left:40px;
+}
+#logo a{
+  margin-left: 45px;
 }
 .icons {
   display: flex;
