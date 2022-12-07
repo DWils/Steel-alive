@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   z-index: 3;
@@ -6,21 +6,19 @@
 }
 
 /*HEADER*/
-  
-#titre_principal
-{
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
+
+#titre_principal {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
 }
-#logo img
-{
-    display: flex;
-    width: 90px;
-    height: 90px;
-    margin-left:40px;
+#logo img {
+  display: flex;
+  width: 90px;
+  height: 90px;
+  margin-left: 40px;
 }
-#logo a{
+#logo a {
   margin-left: 45px;
 }
 .icons {
@@ -29,7 +27,7 @@
   padding-right: 10px;
   padding-top: 20px;
 }
-.icons img{
+.icons img {
   width: 35px;
   height: 35px;
 }
@@ -39,358 +37,355 @@
 #Cart {
   margin-right: 24px;
 }
-#searchBar{
-    display: inline-block;
-    justify-content: center;
-    margin: auto;
+#searchBar {
+  display: inline-block;
+  justify-content: center;
+  margin: auto;
 }
-  .menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .menu > li {
-    color: white;
-    width: 140px;
-    height: 40px;
-    line-height: 40px;
-    background:#3D5467,rgb(255,255,255);
-    cursor: pointer;
-    font-size: 17px;
-    text-align: center;
-    border-radius: 30px;
-    list-style-type: none;
-  }
-  .sub-menu {
-    transform: scale(0);
-    transform-origin: top center;
-    z-index: 2;
-  }
-  .sub-menu li {
-    font-size: 14px;
-    background: #3D5467;
-    padding: 8px 0;
-    color: white;
-    border-bottom: 1px solid rgba(197, 203, 219, 0.8);
-    transform: scale(0);
-    transform-origin: top center;
-    border-radius: 6px;
-    
-  }
-  .sub-menu li:last-child {
-    border-bottom: 0;
-  }
-  .sub-menu li:hover {
-    background: rgba(97, 126, 213, 0.8);
-  }
-  .menu > li:hover .sub-menu li{
-    transform: scale(1);
-  }
-  .menu > li:hover .sub-menu {
-    transform: scale(1);
-  }
-  .navbox{
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.menu > li {
+  color: white;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  background: #3d5467, rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 17px;
+  text-align: center;
+  border-radius: 30px;
+  list-style-type: none;
+}
+.sub-menu {
+  transform: scale(0);
+  transform-origin: top center;
+  z-index: 2;
+}
+.sub-menu li {
+  font-size: 14px;
+  background: #3d5467;
+  padding: 8px 0;
+  color: white;
+  border-bottom: 1px solid rgba(197, 203, 219, 0.8);
+  transform: scale(0);
+  transform-origin: top center;
+  border-radius: 6px;
+}
+.sub-menu li:last-child {
+  border-bottom: 0;
+}
+.sub-menu li:hover {
+  background: rgba(97, 126, 213, 0.8);
+}
+.menu > li:hover .sub-menu li {
+  transform: scale(1);
+}
+.menu > li:hover .sub-menu {
+  transform: scale(1);
+}
+.navbox {
   margin-left: 50px;
   margin-right: 50px;
-  background:#3D5467;
+  background: #3d5467;
   border-radius: 6px;
-  }
-  
-  /*MAINCATBOX*/
+}
 
-  .Maincatbox{
-    display: flex;
-    margin: auto;
-    position: relative;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 1000px;
-    height: 300px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    z-index: 1;
-  }
-  #Achatvente{
-    width: 450px;
-    height: 250px;
-    text-align: center;
-    position: relative;
-  }
-  #DIYtutos{
-    width: 450px;
-    height: 250px;
-    text-align: center;
-    position: relative;
-  }
-  #Achatvente img{
-    max-width: 100%;
-    max-height: 100%;
-    transition: transform .3s; /* Animation */
-    
-    }
-  #DIYtutos img{
-    max-width: 100%;
-    max-height: 100%;
-    transition: transform .3s;
-    }
-    
-  #DIYtutos img:hover {
-    transform: scale(1.2); /* (fonction de zoom réglable) */
-    opacity: 0.4;
-  }
-  #Achatvente img:hover {
-    transform: scale(1.2);
-    opacity: 0.4; /* (fonction de zoom réglable) */
-  }
-  
-  #maincatitle1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    cursor: pointer;
-    font-size: 16px;
-    color: white;
-    background-color: #000000;
-    padding: 10px 25px;
-    border-radius: 5px;
-    opacity: 0.6;
-    transition: .5s ease;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    z-index: 1
-  }
+/*MAINCATBOX*/
 
-  #maincatitle2{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    cursor: pointer;
-    font-size: 16px;
-    color: white;
-    background-color: #000000;
-    padding: 10px 25px;
-    border-radius: 5px;
-    opacity: 0.6;
-    transition: .5s ease;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    z-index: 1
-  }
+.Maincatbox {
+  display: flex;
+  margin: auto;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 1000px;
+  height: 300px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  z-index: 1;
+}
+#Achatvente {
+  width: 450px;
+  height: 250px;
+  text-align: center;
+  position: relative;
+}
+#DIYtutos {
+  width: 450px;
+  height: 250px;
+  text-align: center;
+  position: relative;
+}
+#Achatvente img {
+  max-width: 100%;
+  max-height: 100%;
+  transition: transform 0.3s; /* Animation */
+}
+#DIYtutos img {
+  max-width: 100%;
+  max-height: 100%;
+  transition: transform 0.3s;
+}
 
-  #Achatvente:hover #maincatitle1{
-    opacity: 1;
-  }
-  #DIYtutos:hover #maincatitle2{
-    opacity: 1;
-  }
-  h3
-  {
+#DIYtutos img:hover {
+  transform: scale(1.2); /* (fonction de zoom réglable) */
+  opacity: 0.4;
+}
+#Achatvente img:hover {
+  transform: scale(1.2);
+  opacity: 0.4; /* (fonction de zoom réglable) */
+}
+
+#maincatitle1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  background-color: #000000;
+  padding: 10px 25px;
+  border-radius: 5px;
+  opacity: 0.6;
+  transition: 0.5s ease;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+#maincatitle2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  background-color: #000000;
+  padding: 10px 25px;
+  border-radius: 5px;
+  opacity: 0.6;
+  transition: 0.5s ease;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+#Achatvente:hover #maincatitle1 {
+  opacity: 1;
+}
+#DIYtutos:hover #maincatitle2 {
+  opacity: 1;
+}
+h3 {
   font-size: x-large;
-  }
+}
 
-  /*CAROUSEL*/
- 
+/*CAROUSEL*/
+
+.carousel-container {
+  width: 1100px;
+  margin: 50px auto;
+  position: relative;
+  border-left-width: 4px;
+}
+@media (max-width: 768px) {
   .carousel-container {
-    width: 1100px;
-    margin: 50px auto;
-    position: relative;
-    border-left-width: 4px;
+    width: 95%;
   }
-  @media (max-width: 768px) {
-    .carousel-container {
-      width: 95%;
-    }
-  }
-  .inner-carousel {
-    width: 100%;
-    height: 400px;
-    overflow: hidden;
-  }
-  .track {
-    display: inline-flex;
-    height: 100%;
-    transition: transform 0.2s ease-in-out;
-  }
+}
+.inner-carousel {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+.track {
+  display: inline-flex;
+  height: 100%;
+  transition: transform 0.2s ease-in-out;
+}
+.card-container {
+  width: 275px;
+  height: 400px;
+  flex-shrink: 0;
+  padding-right: 10px;
+}
+@media (max-width: 768px) {
   .card-container {
-    width: 275px;
-    height: 400px;
-    flex-shrink: 0;
-    padding-right: 10px;
+    width: 184px;
   }
-  @media (max-width: 768px) {
-    .card-container {
-      width: 184px;
-    }
-  }
-  .card {
-    width: 100%;
-    height: 100%;
-    /*display: flex;
+}
+.card {
+  width: 100%;
+  height: 100%;
+  /*display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;*/
-    background-position: center bottom;
-    background-size: center;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-  }
-  .card1 {
-    background-image: url("../images/carousel/Carousel1.jpg");
-    background-size: contain;
-    background-position: center;
-  }
-  .card2 {
-    background-image: url("../images/carousel/Carousel2.jpg");
-    background-size: contain;
-    background-position: center;
-  }
-  .card3 {
-    background-image: url("../images/carousel/Carousel3.jpg");
-    background-size: contain;
-    background-position: center;
-  }
-  .card4 {
-    background-image: url("../images/carousel/Carousel4.jpg");
-    background-size: contain;
-    background-position: center;
-  }
-  .card5 {
-    background-image: url("../images/carousel/Carousel5.jpg");
-    background-size: contain;
-    background-position: center;
-  }
-  .card6 {
-    background-image: url("../images/carousel/Carousel6.jpg");
-    background-size: contain;
-    background-position: center;
-  }
-  .card7 {
-    background-image: url("../images/carousel/Carousel7.jpg");
-    background-size: contain;
-    background-position: center;
-  }
-  .card8 {
-    background-image: url("../images/carousel/Carousel8.jpg");
-    background-size: contain;
-    background-position: center;
-  }
-  .card9 {
-    background-image: url("../images/carousel/Carousel9.jpg");
-    background-size: contain;
-    background-position: center;
-  }
-  .card10 {
-    background-image: url("../images/carousel/Carousel10.png");
-    background-size: contain;
-    background-position: center;
-  }
-  .card11 {
-    background-image: url("../images/carousel/Carousel11.jpg");
-    background-size: contain;
-    background-position: center;
-  }
-  .card12 {
-    background-image: url("../images/carousel/Carousel12.png");
-    background-size: contain;
-    background-position: center;
-  }
-  
-  .nav button {
-    position: absolute;
-    top: 50%;
-    transform: translatey(-50%);
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    outline: none;
-    border: 1px solid #000;
-    cursor: pointer;
-  }
-  .nav .prev {
-    left: -30px;
-    display: none;
-  }
-  .nav .prev.show {
-    display: block;
-  }
-  .nav .next {
-    right: -30px;
-  }
-  .nav .next.hide {
-    display: none;
-  }
-  
-    /*PARALLAX*/
-    
-    .parallax1 {
-      background-image: url("../images/brokenphone.jpg");
-      min-height: 600px; 
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-  
-    .parallax2 {
-      background-image: url("../images/righttorepair.jpg");
-      min-height: 600px; 
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-  
-  .textexplicatif{
-   display: block;
-   text-align: center;
-   height: 250px;
-   padding-left: 20%;
-   padding-right: 20%;
-  }
+  background-position: center bottom;
+  background-size: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.card1 {
+  background-image: url("../images/carousel/Carousel1.jpg");
+  background-size: contain;
+  background-position: center;
+}
+.card2 {
+  background-image: url("../images/carousel/Carousel2.jpg");
+  background-size: contain;
+  background-position: center;
+}
+.card3 {
+  background-image: url("../images/carousel/Carousel3.jpg");
+  background-size: contain;
+  background-position: center;
+}
+.card4 {
+  background-image: url("../images/carousel/Carousel4.jpg");
+  background-size: contain;
+  background-position: center;
+}
+.card5 {
+  background-image: url("../images/carousel/Carousel5.jpg");
+  background-size: contain;
+  background-position: center;
+}
+.card6 {
+  background-image: url("../images/carousel/Carousel6.jpg");
+  background-size: contain;
+  background-position: center;
+}
+.card7 {
+  background-image: url("../images/carousel/Carousel7.jpg");
+  background-size: contain;
+  background-position: center;
+}
+.card8 {
+  background-image: url("../images/carousel/Carousel8.jpg");
+  background-size: contain;
+  background-position: center;
+}
+.card9 {
+  background-image: url("../images/carousel/Carousel9.jpg");
+  background-size: contain;
+  background-position: center;
+}
+.card10 {
+  background-image: url("../images/carousel/Carousel10.png");
+  background-size: contain;
+  background-position: center;
+}
+.card11 {
+  background-image: url("../images/carousel/Carousel11.jpg");
+  background-size: contain;
+  background-position: center;
+}
+.card12 {
+  background-image: url("../images/carousel/Carousel12.png");
+  background-size: contain;
+  background-position: center;
+}
 
-  /*Footer*/
+.nav button {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  outline: none;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+.nav .prev {
+  left: -30px;
+  display: none;
+}
+.nav .prev.show {
+  display: block;
+}
+.nav .next {
+  right: -30px;
+}
+.nav .next.hide {
+  display: none;
+}
 
-  #footer {
-    background-color: #3D5467;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 100px;
-  }
-  #nous {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
-  }
-  #cg {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
-  }
-  #reseaux {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-  h2 {
-    color: rgb(0, 183, 255);
-    text-align: center;
-  }
-  .lien {
-    text-decoration: none !important;
-    color: black;
-  }
-  .logor {
-    align-self: center;
-  }
-  .iconreso {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  
+/*PARALLAX*/
 
-  
+.parallax1 {
+  background-image: url("../images/brokenphone.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  background-image: url("../images/righttorepair.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.textexplicatif {
+  display: block;
+  text-align: center;
+  height: 250px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+/*Footer*/
+
+#footer {
+  background-color: #3d5467;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100px;
+  color: aliceblue;
+  padding-top: 20px;
+  margin-top: 30px;
+}
+#nous {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+#cg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+#reseaux {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+h2 {
+  color: rgb(0, 183, 255);
+  text-align: center;
+}
+.lien {
+  text-decoration: none !important;
+  color: aliceblue;
+}
+.logor {
+  align-self: center;
+}
+.iconreso {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

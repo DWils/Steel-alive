@@ -199,6 +199,9 @@ h5 {
   flex-direction: row;
   justify-content: space-around;
   height: 100px;
+  color: aliceblue;
+  padding-top: 20px;
+  margin-top: 30px;
 }
 #nous {
   display: flex;
@@ -223,7 +226,7 @@ h2 {
 }
 .lien {
   text-decoration: none !important;
-  color: black;
+  color: aliceblue;
 }
 .logor {
   align-self: center;
