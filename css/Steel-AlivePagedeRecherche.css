@@ -192,54 +192,51 @@ h5 {
   font-size: 30px;
 }
 
-/* début Footer */
-#footer {
-  border: 1px solid black;
-  background-color: rgba(91, 193, 193, 0.73);
+  /*Footer*/
 
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-bottom: 0.5cm;
-  padding-top: 0.5cm;
-}
-#nous {
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: center;
-}
-#cg {
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: center;
-}
-#reseaux {
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-h2 {
-  font-size: 30px;
-  color: rgb(0, 183, 255);
-  text-align: center;
-}
-.lien {
-  text-decoration: none !important;
-  color: black;
-}
-.logor {
-  align-self: center;
-}
-.imgfoot {
-  height: 40px;
-  width: auto;
-}
+     #footer {
+      background-color: #3D5467;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      height: 100px;
+    }
+    #nous {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
+    }
+    #cg {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
+    }
+    #reseaux {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    h2 {
+      color: rgb(0, 183, 255);
+      text-align: center;
+    }
+    .lien {
+      text-decoration: none !important;
+      color: black;
+    }
+    .logor {
+      align-self: center;
+    }
+    .iconreso {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .reseausocio img{
+      height: fit-content;
+      width: fit-content;
+    }
 
 /* fin footer */
