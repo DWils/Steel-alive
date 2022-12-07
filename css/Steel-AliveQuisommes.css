@@ -91,49 +91,8 @@
   background:#3D5467;
   border-radius: 6px;
   }
-
-  /*MAIN*/
-h1{
-  display: flex;
-  margin: auto;
-  justify-content: center;
-}
-
-#prodtitle{
-  display: flex;
-  margin-left: 50px;
-}
-
-  .fakepics {
-    display: flex;
-    margin: auto;
-    width: 50%;
-    height: 150px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  #firstadd1, #firstadd2, #firstadd3{
-    margin: auto;
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
-  }
-
-.carac{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: auto;
-  margin-bottom: 30px;
-}
-
-label {display:block;}
-textarea { display:block;}
   
-    /*FOOTER*/
+    /*Footer*/
 
   #footer {
     background-color: #3D5467;

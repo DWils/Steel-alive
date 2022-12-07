@@ -8,6 +8,7 @@
     <title>Vendre sur Steel ALive!</title>
   </head>
   <body>
+
    <!--Header-->
 
    <body>
@@ -102,7 +103,52 @@
         </nav>
       </div>
     </header>
-    <!-- FOOTER -->
+
+<!--FORMULAIRE VENTE-->
+
+<h1> Mets en vente ton produit </h1>
+
+<div id="Prodtitle">
+  <label for="searchBar">Qu'est ce que tu souhaites vendre ? :</label>
+                <input
+                  type="text"
+                  name="Prod"
+                  id="Productitle"
+                  placeholder="Iphone 14 Pro"
+                  size="30"
+                  maxlength="10">
+</div>
+<div class="fakepics">
+  <div class="pics1">
+  <div id="firstadd1"><button type="button">Ajouter photos</button></div></div>
+  <div class="pics2">
+  <div id="firstadd2"><button type="button">Ajouter photos</button></div></div>
+  <div class="pics3">
+  <div id="firstadd3"><button type="button">Ajouter photos</button></div></div>
+</div>
+
+<div class="carac">
+  <div class="state">
+  <form action="action_page.php">
+    <label for="cars">État du produit:</label>
+    <select >
+        <option value="BN">État neuf</option>
+        <option value="VG">Très bon état</option>
+        <option value="G">Bon état</option>
+        <option value="OK">État correct</option>
+    </select>
+  </div> 
+
+    <div class="descript"><label>Description du produit:</label>
+      <textarea rows="4" cols="50" placeholder="Décrire le produit le plus précisément possible..."></textarea>
+    </div>
+  </form>
+  <div class="pricelabel">
+    <label>Prix:<input type="number"></label>
+  </div>
+</div>
+
+    <!--FOOTER-->
 
     <footer>
       <div id="footer">
@@ -138,5 +184,6 @@
         </div>
       </div>
     </footer>
+    <script src="../javascript/vente.js"></script>
   </body>
 </html>
