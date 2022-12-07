@@ -71,6 +71,7 @@
     transform: scale(0);
     transform-origin: top center;
     border-radius: 6px;
+    list-style-type: none;
     
   }
   .sub-menu li:last-child {
