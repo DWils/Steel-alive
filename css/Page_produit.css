@@ -137,6 +137,9 @@ ul {
 
 h6 {
   font-size: 25px;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 40px;
 }
 #suggestion {
   border: 3px solid black;

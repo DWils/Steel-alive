@@ -1,58 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/Steel-AlivePanier.css" />
-    <link rel="stylesheet" href="css/scss/Steel-AlivePanier.scss" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display"
-    />
-    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0">
-    <title>Panier</title>
-  </head>
-  <body>
-    <!-- HEADER-->
 
- <body>
-  <header>
-    <div id="header">
-      <div id="titre_principal">
-        <div id="logo">
-          <a href="Steel-Alive.html">
-          <img src="images/logo.png" alt="logosite" />
-          <a>Steel Alive</a></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/Steel-AlivePanier.css" />
+  <link rel="stylesheet" href="css/scss/Steel-AlivePanier.scss" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display" />
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0">
+  <title>Panier</title>
+</head>
+
+<body>
+  <!-- HEADER-->
+
+  <body>
+    <header>
+      <div id="header">
+        <div id="titre_principal">
+          <div id="logo">
+            <a href="Steel-Alive.html">
+              <img src="images/logo.png" alt="logosite" />
+              <a>Steel Alive</a></a>
+          </div>
+          <div id="searchBar">
+            <form method="post" action="traitement.php">
+              <p>
+                <label for="searchBar">C'est parti:</label>
+                <input type="text" name="searchBar" id="searchBar" placeholder="Iphone 14 Pro" size="30"
+                  maxlength="10" />
+              </p>
+            </form>
+          </div>
+          <div class="icons">
+            <!--ajouter lien ici pour icône favoris-->
+            <div id="Fav">
+              <img src="images/favorite.png" />
+            </div>
+            <a href="Steel-AlivePanier.html">
+              <div id="Cart">
+                <img src="images/cart.png" />
+              </div>
+            </a>
+            <div id="Profil">
+              <a href="Steal-Alive_connexion.html">
+                <img src="images/profile.png">
+            </div>
+            </a>
+          </div>
         </div>
-        <div id="searchBar">
-          <form method="post" action="traitement.php">
-            <p>
-              <label for="searchBar">C'est parti:</label>
-              <input
-                type="text"
-                name="searchBar"
-                id="searchBar"
-                placeholder="Iphone 14 Pro"
-                size="30"
-                maxlength="10"
-              />
-            </p>
-          </form>
-        </div>
-        <div class="icons">
-          <!--ajouter lien ici pour icône favoris-->
-          <div id="Fav">
-          <img src="images/favorite.png" /></div>
-          <!--ajouter lien ici pour icône panier-->
-          <div id="Cart">
-          <img src="images/cart.png" /></div>
-          <div id="Profil">
-          <a href="Steel-AliveProfil.html">
-            <img src="images/profile.png"></div>
-          </a>
-        </div>
-      </div>
         <!--Navbar-->
         <nav>
           <div class="navbox">
@@ -60,7 +57,9 @@
               <li>
                 Ordinateurs
                 <ul class="sub-menu">
-                  <li>Portables/ultrabook</li>
+                  <a href="Steel-AlivePagedeRecherche.html">
+                    <li>Portables/ultrabook</li>
+                  </a>
                   <li>Composants</li>
                   <li>Écrans</li>
                   <li>Autres périphériques</li>
@@ -179,11 +178,11 @@
           </div>
           <div class="summary-delivery">
             <select name="delivery-collection" class="summary-delivery-selection">
-                <option value="0" selected="selected">Envoi ou point relais ?</option>
-               <option value="collection">Récupérer en point relais</option>
-               <option value="first-class">Rapide</option>
-               <option value="second-class">Normal</option>
-               <option value="signed-for">Économique</option>
+              <option value="0" selected="selected">Envoi ou point relais ?</option>
+              <option value="collection">Récupérer en point relais</option>
+              <option value="first-class">Rapide</option>
+              <option value="second-class">Normal</option>
+              <option value="signed-for">Économique</option>
             </select>
           </div>
           <div class="summary-total">
@@ -196,47 +195,37 @@
         </div>
       </aside>
     </main>
-  
 
 
-  <!-- FOOTER -->
 
-  <footer>
-    <div id="footer">
-      <div id="nous">
-        <h2>A propos de nous</h2>
-        <a class="lien" href="Steel-AliveAide.html">Qui sommes nous?</a>
-        <a class="lien" href="Steel-AliveDIYTutos.html"
-          >Le Do It Yourself (DIY)</a
-        >
+    <!-- FOOTER -->
+
+    <footer>
+      <div id="footer">
+        <div id="nous">
+          <h2>A propos de nous</h2>
+          <a class="lien" href="Steel-AliveAide.html">Qui sommes nous?</a>
+          <a class="lien" href="Steel-AliveDIYTutos.html">Le Do It Yourself (DIY)</a>
+        </div>
+        <div id="cg">
+          <a class="lien" href="CGU.htlm">Conditions générales d'utilsateur</a>
+          <a class="lien" href="CGV.htlm">Conditions générales de vente</a>
+          <p>@2022 Steel-Alive</p>
+        </div>
+        <div id="reseaux">
+          <h2>Nos réseaux</h2>
+          <div class="iconreso">
+            <a class="logor" href="https://fr-fr.facebook.com/" target="_blank"><img class="reseausocio"
+                src="images/face.png" alt="face" /></a>
+            <a class="logor" href="https://www.instagram.com/?hl=fr" target="_blank"><img class="reseausocio"
+                src="images/insta.png" alt="face" /></a>
+            <a class="logor" href="https://twitter.com/i/flow/login" target="_blank"><img class="reseausocio"
+                src="images/twit.png" alt="face" /></a>
+          </div>
+        </div>
       </div>
-      <div id="cg">
-        <a class="lien" href="CGU.htlm">Conditions générales d'utilsateur</a>
-        <a class="lien" href="CGV.htlm">Conditions générales de vente</a>
-        <p>@2022 Steel-Alive</p>
-      </div>
-      <div id="reseaux">
-        <h2>Nos réseaux</h2>
-        <div class="iconreso">
-        <a class="logor" href="https://fr-fr.facebook.com/" target="_blank"
-          ><img class="reseausocio" src="images/face.png" alt="face"
-        /></a>
-        <a
-          class="logor"
-          href="https://www.instagram.com/?hl=fr"
-          target="_blank"
-          ><img class="reseausocio" src="images/insta.png" alt="face"
-        /></a>
-        <a
-          class="logor"
-          href="https://twitter.com/i/flow/login"
-          target="_blank"
-          ><img class="reseausocio" src="images/twit.png" alt="face"
-        /></a>
-      </div>
-    </div>
-    </div>
-  </footer>
+    </footer>
     <script src="Panier.js"></script>
   </body>
+
 </html>

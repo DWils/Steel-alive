@@ -1,198 +1,195 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="css/Steel-AliveDIYTutos.css" />
-    <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display">
 
-    <title>Steel Alive - DIY/Tutos</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="css/Steel-AliveDIYTutos.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display">
 
-  <!--Header-->
+  <title>Steel Alive - DIY/Tutos</title>
+</head>
 
-  <body>
-    <header>
-      <div id="header">
-        <div id="titre_principal">
-          <div id="logo">
-            <a href="Steel-Alive.html">
+<!--Header-->
+
+<body>
+  <header>
+    <div id="header">
+      <div id="titre_principal">
+        <div id="logo">
+          <a href="Steel-Alive.html">
             <img src="images/logo.png" alt="logosite" />
             <a>Steel Alive</a></a>
+        </div>
+        <div id="searchBar">
+          <form method="post" action="traitement.php">
+            <p>
+              <label for="searchBar">C'est parti:</label>
+              <input type="text" name="searchBar" id="searchBar" placeholder="Iphone 14 Pro" size="30" maxlength="10" />
+            </p>
+          </form>
+        </div>
+        <div class="icons">
+          <!--ajouter lien ici pour icône favoris-->
+          <div id="Fav">
+            <img src="images/favorite.png" />
           </div>
-          <div id="searchBar">
-            <form method="post" action="traitement.php">
-              <p>
-                <label for="searchBar">C'est parti:</label>
-                <input
-                  type="text"
-                  name="searchBar"
-                  id="searchBar"
-                  placeholder="Iphone 14 Pro"
-                  size="30"
-                  maxlength="10"
-                />
-              </p>
-            </form>
-          </div>
-          <div class="icons">
-            <!--ajouter lien ici pour icône favoris-->
-            <div id="Fav">
-            <img src="images/favorite.png" /></div>
-            <!--ajouter lien ici pour icône panier-->
+          <a href="Steel-AlivePanier.html">
             <div id="Cart">
-            <img src="images/cart.png" /></div>
-            <div id="Profil">
-            <a href="Steel-AliveProfil.html">
-              <img src="images/profile.png"></div>
-            </a>
+              <img src="images/cart.png" />
+            </div>
+          </a>
+          <div id="Profil">
+            <a href="Steal-Alive_connexion.html">
+              <img src="images/profile.png">
           </div>
+          </a>
         </div>
-        <!--Navbar-->
-        <nav>
-          <div class="navbox">
-            <ul class="menu">
-              <li>
-                Ordinateurs
-                <ul class="sub-menu">
+      </div>
+      <!--Navbar-->
+      <nav>
+        <div class="navbox">
+          <ul class="menu">
+            <li>
+              Ordinateurs
+              <ul class="sub-menu">
+                <a href="Steel-AlivePagedeRecherche.html">
                   <li>Portables/ultrabook</li>
-                  <li>Composants</li>
-                  <li>Écrans</li>
-                  <li>Autres périphériques</li>
-                  <li>Divers</li>
-                </ul>
-              </li>
-              <li>
-                Smartphones
-                <ul class="sub-menu">
-                  <li>Ios</li>
-                  <li>Android</li>
-                  <li>Périphériques</li>
-                </ul>
-              </li>
-              <li>
-                Télévision
-                <ul class="sub-menu">
-                  <li>30 pouces et moins</li>
-                  <li>30 à 50 pouces</li>
-                  <li>Plus de 50 pouces</li>
-                  <li>Périphériques</li>
-                </ul>
-              </li>
-              <li>
-                Audio/Hi-Fi
-                <ul class="sub-menu">
-                  <li>Enceintes</li>
-                  <li>Home-Cinema</li>
-                  <li>Casques/écouteurs</li>
-                  <li>Micros</li>
-                  <li>Autres</li>
-                </ul>
-              </li>
-              <li>
-                Gaming
-                <ul class="sub-menu">
-                  <li>Nintendo</li>
-                  <li>Playstation</li>
-                  <li>Xbox</li>
-                  <li>Autres</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </header>
-
-    <!--Titres DIY/Tutos-->
-
-    <div id="TitleDiY" h1>DIY et Tutoriels</h1>
+                </a>
+                <li>Composants</li>
+                <li>Écrans</li>
+                <li>Autres périphériques</li>
+                <li>Divers</li>
+              </ul>
+            </li>
+            <li>
+              Smartphones
+              <ul class="sub-menu">
+                <li>Ios</li>
+                <li>Android</li>
+                <li>Périphériques</li>
+              </ul>
+            </li>
+            <li>
+              Télévision
+              <ul class="sub-menu">
+                <li>30 pouces et moins</li>
+                <li>30 à 50 pouces</li>
+                <li>Plus de 50 pouces</li>
+                <li>Périphériques</li>
+              </ul>
+            </li>
+            <li>
+              Audio/Hi-Fi
+              <ul class="sub-menu">
+                <li>Enceintes</li>
+                <li>Home-Cinema</li>
+                <li>Casques/écouteurs</li>
+                <li>Micros</li>
+                <li>Autres</li>
+              </ul>
+            </li>
+            <li>
+              Gaming
+              <ul class="sub-menu">
+                <li>Nintendo</li>
+                <li>Playstation</li>
+                <li>Xbox</li>
+                <li>Autres</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
-    <h> On a tous besoin d'un coup de main lorsqu'on souhaite réparer quelque chose. Tu trouveras tout ce qu'il te faut ici, rangé par catégories.</h>
+  </header>
 
-    <!-- Main box categories-->
-    <main>
-      <div class="Maincatbox">
-        <div id="PC">
-          <a href="https://fr.ifixit.com/Device/PC_Desktop">
+  <!--Titres DIY/Tutos-->
+
+  <div id="TitleDiY" h1>DIY et Tutoriels</h1>
+  </div>
+  <h> On a tous besoin d'un coup de main lorsqu'on souhaite réparer quelque chose. Tu trouveras tout ce qu'il te faut
+    ici, rangé par catégories.</h>
+
+  <!-- Main box categories-->
+  <main>
+    <div class="Maincatbox">
+      <div id="PC">
+        <a href="https://fr.ifixit.com/Device/PC_Desktop">
           <div id="maincatitle1">PC</div>
-          <img src="images/towercomputer 1.jpg" alt="" /></a>
-        </div>
-        <div id="Smartphone">
-          <a href="https://fr.ifixit.com/Device/Phone">
+          <img src="images/towercomputer 1.jpg" alt="" />
+        </a>
+      </div>
+      <div id="Smartphone">
+        <a href="https://fr.ifixit.com/Device/Phone">
           <div id="maincatitle2">Smartphone</div>
-          <img src="images/smartphone-repair 1.jpg" alt="" /></a>
-        </div>
-        <div class="break"></div>
-        <div id="Laptop">
-          <a href="https://fr.ifixit.com/Device/PC_Laptop">
+          <img src="images/smartphone-repair 1.jpg" alt="" />
+        </a>
+      </div>
+      <div class="break"></div>
+      <div id="Laptop">
+        <a href="https://fr.ifixit.com/Device/PC_Laptop">
           <div id="maincatitle3">Laptop</div>
-          <img src="images/laptop-repair 1.jpg" alt="" /></a>
-        </div>
-        <div id="Console">
-          <a href="https://fr.ifixit.com/Device/Game_Console">
+          <img src="images/laptop-repair 1.jpg" alt="" />
+        </a>
+      </div>
+      <div id="Console">
+        <a href="https://fr.ifixit.com/Device/Game_Console">
           <div id="maincatitle4">Consoles</div>
-          <img src="images/console 1.jpg" alt="" /></a>
-        </div>
-        <div class="break"></div>
-        <div id="TV">
-          <a href="https://www.spareka.fr/comment-reparer/multimedia/television">
+          <img src="images/console 1.jpg" alt="" />
+        </a>
+      </div>
+      <div class="break"></div>
+      <div id="TV">
+        <a href="https://www.spareka.fr/comment-reparer/multimedia/television">
           <div id="maincatitle5">TV</div>
-          <img src="images/tv disassembly.jpg" alt="" /></a>
-        </div>
-        <div id="Audio">
-          <a href="https://fr.ifixit.com/Device/Home_Stereo_and_Theater">
+          <img src="images/tv disassembly.jpg" alt="" />
+        </a>
+      </div>
+      <div id="Audio">
+        <a href="https://fr.ifixit.com/Device/Home_Stereo_and_Theater">
           <div id="maincatitle6">Audio</div>
-          <img src="images/speaker-repair.jpg" alt="" /></a>
-        </div>
-        <div class="break"></div>
-        <div id="Autres">
-          <a href="https://fr.ifixit.com/Device/Camera">
+          <img src="images/speaker-repair.jpg" alt="" />
+        </a>
+      </div>
+      <div class="break"></div>
+      <div id="Autres">
+        <a href="https://fr.ifixit.com/Device/Camera">
           <div id="maincatitle7">Autres</div>
-          <img src="images/coffee-machine-repair.jpg" alt="" /></a>
-        </div>
+          <img src="images/coffee-machine-repair.jpg" alt="" />
+        </a>
       </div>
-    </main>
+    </div>
+  </main>
 
-    <!-- FOOTER -->
+  <!-- FOOTER -->
 
-    <footer>
-      <div id="footer">
-        <div id="nous">
-          <h2>A propos de nous</h2>
-          <a class="lien" href="Steel-AliveAide.html">Qui sommes nous?</a>
-          <a class="lien" href="Steel-AliveDIYTutos.html"
-            >Le Do It Yourself (DIY)</a
-          >
-        </div>
-        <div id="cg">
-          <a class="lien" href="CGU.htlm">Conditions générales d'utilsateur</a>
-          <a class="lien" href="CGV.htlm">Conditions générales de vente</a>
-          <p>@2022 Steel-Alive</p>
-        </div>
-        <div id="reseaux">
-          <h2>Nos réseaux</h2>
-          <div class="iconreso">
-          <a class="logor" href="https://fr-fr.facebook.com/" target="_blank"
-            ><img class="reseausocio" src="images/face.png" alt="face"
-          /></a>
-          <a
-            class="logor"
-            href="https://www.instagram.com/?hl=fr"
-            target="_blank"
-            ><img class="reseausocio" src="images/insta.png" alt="face"
-          /></a>
-          <a
-            class="logor"
-            href="https://twitter.com/i/flow/login"
-            target="_blank"
-            ><img class="reseausocio" src="images/twit.png" alt="face"
-          /></a>
+  <footer>
+    <div id="footer">
+      <div id="nous">
+        <h2>A propos de nous</h2>
+        <a class="lien" href="Steel-AliveAide.html">Qui sommes nous?</a>
+        <a class="lien" href="Steel-AliveDIYTutos.html">Le Do It Yourself (DIY)</a>
+      </div>
+      <div id="cg">
+        <a class="lien" href="CGU.htlm">Conditions générales d'utilsateur</a>
+        <a class="lien" href="CGV.htlm">Conditions générales de vente</a>
+        <p>@2022 Steel-Alive</p>
+      </div>
+      <div id="reseaux">
+        <h2>Nos réseaux</h2>
+        <div class="iconreso">
+          <a class="logor" href="https://fr-fr.facebook.com/" target="_blank"><img class="reseausocio"
+              src="images/face.png" alt="face" /></a>
+          <a class="logor" href="https://www.instagram.com/?hl=fr" target="_blank"><img class="reseausocio"
+              src="images/insta.png" alt="face" /></a>
+          <a class="logor" href="https://twitter.com/i/flow/login" target="_blank"><img class="reseausocio"
+              src="images/twit.png" alt="face" /></a>
         </div>
       </div>
-      </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
