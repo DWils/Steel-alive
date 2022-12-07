@@ -119,9 +119,10 @@
   text-align: center;
   margin: 50px;
   flex-wrap: wrap;
-  width: auto;
+  width: fit-content;
   height: fit-content;
   text-decoration: none;
+  position: relative;
 }
 
 .laptop {
@@ -213,12 +214,7 @@ h5 {
   justify-content: space-around;
   text-align: center;
 }
-#reseaux {
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
+
 h2 {
   font-size: 30px;
   color: rgb(0, 183, 255);
