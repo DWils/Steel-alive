@@ -5,7 +5,7 @@
     box-sizing: border-box;
   }
   
- /*HEADER*/
+/*HEADER*/
   
 #titre_principal
 {
@@ -18,6 +18,10 @@
     display: flex;
     width: 90px;
     height: 90px;
+    margin-left:40px;
+}
+#logo a{
+  margin-left: 45px;
 }
 .icons {
   display: flex;
@@ -96,31 +100,35 @@
 h1{
   display: flex;
   margin: auto;
-  justify-content: center;
+  justify-content: flex-start;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
-#prodtitle{
+#Prodtitle{
   display: flex;
-  margin-left: 50px;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 1px solid #3D5467;
+  background-color: #3D5467;
+  border-radius: 5px;
+  height: fit-content;
+  width: fit-content;
+  color: white;
+  margin-left: 15px;
 }
 
   .fakepics {
     display: flex;
     margin: auto;
-    width: 50%;
-    height: 150px;
+    width: 80%;
+    height: 300px;
     margin-bottom: 30px;
     margin-top: 30px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
   }
 
-  #firstadd1, #firstadd2, #firstadd3{
-    margin: auto;
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
-  }
 
 .carac{
   display: flex;
@@ -132,6 +140,33 @@ h1{
 
 label {display:block;}
 textarea { display:block;}
+
+.sell{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin: auto;
+}
+
+.button {
+  background-color: #3D5467; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button1:hover {
+  background-color: #000000;
+  color: white;
+}
   
     /*FOOTER*/
 
