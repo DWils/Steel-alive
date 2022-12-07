@@ -1,51 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/Steel-AliveVente.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-    <title>Vendre sur Steel ALive!</title>
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/Steel-AliveVente.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+  <title>Vendre sur Steel ALive!</title>
+</head>
+
+<body>
+
+  <!--Header-->
+
   <body>
-
-   <!--Header-->
-
-   <body>
     <header>
       <div id="header">
         <div id="titre_principal">
           <div id="logo">
             <a href="Steel-Alive.html">
-            <img src="images/logo.png" alt="logosite" />
-            <a>Steel Alive</a></a>
+              <img src="images/logo.png" alt="logosite" />
+              <a>Steel Alive</a></a>
           </div>
           <div id="searchBar">
             <form method="post" action="traitement.php">
               <p>
                 <label for="searchBar">C'est parti:</label>
-                <input
-                  type="text"
-                  name="searchBar"
-                  id="searchBar"
-                  placeholder="Iphone 14 Pro"
-                  size="30"
-                  maxlength="10"
-                />
+                <input type="text" name="searchBar" id="searchBar" placeholder="Iphone 14 Pro" size="30"
+                  maxlength="10" />
               </p>
             </form>
           </div>
           <div class="icons">
             <!--ajouter lien ici pour icône favoris-->
             <div id="Fav">
-            <img src="images/favorite.png" /></div>
-            <!--ajouter lien ici pour icône panier-->
-            <div id="Cart">
-            <img src="images/cart.png" /></div>
+              <img src="images/favorite.png" />
+            </div>
+            <a href="Steel-AlivePanier.html">
+              <div id="Cart">
+                <img src="images/cart.png" />
+              </div>
+            </a>
             <div id="Profil">
-            <a href="Steel-AliveProfil.html">
-              <img src="images/profile.png"></div>
+              <a href="Steal-Alive_connexion.html">
+                <img src="images/profile.png">
+            </div>
             </a>
           </div>
         </div>
@@ -56,7 +56,9 @@
               <li>
                 Ordinateurs
                 <ul class="sub-menu">
-                  <li>Portables/ultrabook</li>
+                  <a href="Steel-AlivePagedeRecherche.html">
+                    <li>Portables/ultrabook</li>
+                  </a>
                   <li>Composants</li>
                   <li>Écrans</li>
                   <li>Autres périphériques</li>
@@ -105,61 +107,61 @@
       </div>
     </header>
 
-<!--FORMULAIRE VENTE-->
+    <!--FORMULAIRE VENTE-->
 
-<h1> Mets en vente ton produit HS </h1>
+    <h1> Mets en vente ton produit HS </h1>
 
-<div id="Prodtitle">
-  <label for="searchBar">Qu'est ce que tu souhaites vendre ? :</label>
-                <input
-                  type="text"
-                  name="Prod"
-                  id="Productitle"
-                  placeholder="Iphone 14 Pro"
-                  size="30"
-                  maxlength="10">
-</div>
-<div class="fakepics">
-  <div class="pics1">
-  <div id="firstadd1"><img id="blah1" alt="your image" width="100" height="100" />
-   <input type="file" 
-        onchange="document.getElementById('blah1').src = window.URL.createObjectURL(this.files[0])"></div></div>
-  <div class="pics2">
-  <div id="firstadd2"><img id="blah2" alt="your image" width="100" height="100" />
-   <input type="file" 
-        onchange="document.getElementById('blah2').src = window.URL.createObjectURL(this.files[0])"></div></div>
-  <div class="pics3">
-  <div id="firstadd3"><img id="blah3" alt="your image" width="100" height="100" />
-   <input type="file" 
-        onchange="document.getElementById('blah3').src = window.URL.createObjectURL(this.files[0])"></div></div>
-</div>
-
-<div class="carac">
-  <div class="state">
-  <form action="action_page.php">
-    <label for="cars">État du produit:</label>
-    <select >
-        <option value="BN">Défaut esthétique</option>
-        <option value="VG">Défaut fonctionnel</option>
-        <option value="G">Les deux</option>
-    </select>
-  </div> 
-
-    <div class="descript"><label>Description du produit:</label>
-      <textarea rows="4" cols="50" placeholder="Décrire le produit le plus précisément possible..."></textarea>
+    <div id="Prodtitle">
+      <label for="searchBar">Qu'est ce que tu souhaites vendre ? :</label>
+      <input type="text" name="Prod" id="Productitle" placeholder="Iphone 14 Pro" size="30" maxlength="10">
     </div>
-  </form>
-  <div class="pricelabel">
-    <label>Prix:<input type="number"></label>
-  </div>
-</div>
-<div class="sell">
-    <button class="button button1"onclick="myFunction()">Vendre!</button>
-    <script>function myFunction() {
-      alert("Merci, votre produit est en vente !");
-    }</script>
+    <div class="fakepics">
+      <div class="pics1">
+        <div id="firstadd1"><img id="blah1" alt="your image" width="100" height="100" />
+          <input type="file"
+            onchange="document.getElementById('blah1').src = window.URL.createObjectURL(this.files[0])">
+        </div>
+      </div>
+      <div class="pics2">
+        <div id="firstadd2"><img id="blah2" alt="your image" width="100" height="100" />
+          <input type="file"
+            onchange="document.getElementById('blah2').src = window.URL.createObjectURL(this.files[0])">
+        </div>
+      </div>
+      <div class="pics3">
+        <div id="firstadd3"><img id="blah3" alt="your image" width="100" height="100" />
+          <input type="file"
+            onchange="document.getElementById('blah3').src = window.URL.createObjectURL(this.files[0])">
+        </div>
+      </div>
+    </div>
 
-</div>
+    <div class="carac">
+      <div class="state">
+        <form action="action_page.php">
+          <label for="cars">État du produit:</label>
+          <select>
+            <option value="BN">Défaut esthétique</option>
+            <option value="VG">Défaut fonctionnel</option>
+            <option value="G">Les deux</option>
+          </select>
+      </div>
+
+      <div class="descript"><label>Description du produit:</label>
+        <textarea rows="4" cols="50" placeholder="Décrire le produit le plus précisément possible..."></textarea>
+      </div>
+      </form>
+      <div class="pricelabel">
+        <label>Prix:<input type="number"></label>
+      </div>
+    </div>
+    <div class="sell">
+      <button class="button button1" onclick="myFunction()">Vendre!</button>
+      <script>function myFunction() {
+          alert("Merci, votre produit est en vente !");
+        }</script>
+
+    </div>
 
     <!--FOOTER-->
 
@@ -168,9 +170,7 @@
         <div id="nous">
           <h2>A propos de nous</h2>
           <a class="lien" href="Steel-AliveAide.html">Qui sommes nous?</a>
-          <a class="lien" href="Steel-AliveDIYTutos.html"
-            >Le Do It Yourself (DIY)</a
-          >
+          <a class="lien" href="Steel-AliveDIYTutos.html">Le Do It Yourself (DIY)</a>
         </div>
         <div id="cg">
           <a class="lien" href="CGU.htlm">Conditions générales d'utilsateur</a>
@@ -179,24 +179,16 @@
         </div>
         <div id="réseaux">
           <h2>Nos réseaux</h2>
-          <a class="logor" href="https://fr-fr.facebook.com/" target="_blank"
-            ><img class="reseausocio" src="images/face.png" alt="face"
-          /></a>
-          <a
-            class="logor"
-            href="https://www.instagram.com/?hl=fr"
-            target="_blank"
-            ><img class="reseausocio" src="images/insta.png" alt="face"
-          /></a>
-          <a
-            class="logor"
-            href="https://twitter.com/i/flow/login"
-            target="_blank"
-            ><img class="reseausocio" src="images/twit.png" alt="face"
-          /></a>
+          <a class="logor" href="https://fr-fr.facebook.com/" target="_blank"><img class="reseausocio"
+              src="images/face.png" alt="face" /></a>
+          <a class="logor" href="https://www.instagram.com/?hl=fr" target="_blank"><img class="reseausocio"
+              src="images/insta.png" alt="face" /></a>
+          <a class="logor" href="https://twitter.com/i/flow/login" target="_blank"><img class="reseausocio"
+              src="images/twit.png" alt="face" /></a>
         </div>
       </div>
     </footer>
     <script src="../javascript/vente.js"></script>
   </body>
+
 </html>
