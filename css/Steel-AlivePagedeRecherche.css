@@ -6,21 +6,19 @@
 }
 
 /*HEADER*/
-  
-#titre_principal
-{
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
+
+#titre_principal {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
 }
-#logo img
-{
-    display: flex;
-    width: 90px;
-    height: 90px;
-    margin-left:40px;
+#logo img {
+  display: flex;
+  width: 90px;
+  height: 90px;
+  margin-left: 40px;
 }
-#logo a{
+#logo a {
   margin-left: 45px;
 }
 .icons {
@@ -125,9 +123,10 @@
   text-align: center;
   margin: 50px;
   flex-wrap: wrap;
-  width: auto;
+  width: fit-content;
   height: fit-content;
   text-decoration: none;
+  position: relative;
 }
 
 .laptop {
@@ -192,51 +191,51 @@ h5 {
   font-size: 30px;
 }
 
-  /*Footer*/
+/*Footer*/
 
-     #footer {
-      background-color: #3D5467;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      height: 100px;
-    }
-    #nous {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      text-align: center;
-    }
-    #cg {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      text-align: center;
-    }
-    #reseaux {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-    }
-    h2 {
-      color: rgb(0, 183, 255);
-      text-align: center;
-    }
-    .lien {
-      text-decoration: none !important;
-      color: black;
-    }
-    .logor {
-      align-self: center;
-    }
-    .iconreso {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-    }
-    .reseausocio img{
-      height: fit-content;
-      width: fit-content;
-    }
+#footer {
+  background-color: #3d5467;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100px;
+}
+#nous {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+#cg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+#reseaux {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+h2 {
+  color: rgb(0, 183, 255);
+  text-align: center;
+}
+.lien {
+  text-decoration: none !important;
+  color: black;
+}
+.logor {
+  align-self: center;
+}
+.iconreso {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.reseausocio img {
+  height: fit-content;
+  width: fit-content;
+}
 
 /* fin footer */
