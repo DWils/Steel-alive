@@ -18,6 +18,10 @@
     display: flex;
     width: 90px;
     height: 90px;
+    margin-left:40px;
+}
+#logo a{
+  margin-left: 45px;
 }
 .icons {
   display: flex;
@@ -144,6 +148,12 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    background-color: #000000;
+    padding: 10px 25px;
+    border-radius: 5px;
     opacity: 0.6;
     transition: .5s ease;
     transform: translate(-50%, -50%);
@@ -155,6 +165,12 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    background-color: #000000;
+    padding: 10px 25px;
+    border-radius: 5px;
     opacity: 0.6;
     transition: .5s ease;
     transform: translate(-50%, -50%);
@@ -172,34 +188,6 @@
   {
   font-size: x-large;
   }
-
-  /*PARALLAX*/
-    
-   .parallax1 {
-    background-image: url("../images/brokenphone.jpg");
-    min-height: 600px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .parallax2 {
-    background-image: url("../images/righttorepair.jpg");
-    min-height: 600px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-.textexplicatif{
- display: block;
- text-align: center;
- height: 250px;
- padding-left: 20%;
- padding-right: 20%;
-}
 
   /*CAROUSEL*/
  
@@ -333,6 +321,33 @@
     display: none;
   }
   
+    /*PARALLAX*/
+    
+    .parallax1 {
+      background-image: url("../images/brokenphone.jpg");
+      min-height: 600px; 
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .parallax2 {
+      background-image: url("../images/righttorepair.jpg");
+      min-height: 600px; 
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+  .textexplicatif{
+   display: block;
+   text-align: center;
+   height: 250px;
+   padding-left: 20%;
+   padding-right: 20%;
+  }
 
   /*Footer*/
 
@@ -356,7 +371,6 @@
     text-align: center;
   }
   #reseaux {
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -372,8 +386,11 @@
   .logor {
     align-self: center;
   }
-  .reseausocio img {
-    height: 40px;
-    width: auto;
+  .iconreso {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
+  
+
   

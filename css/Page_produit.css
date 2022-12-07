@@ -22,6 +22,22 @@
   padding-top: 20px;
 }
 .icons img {
+  width: 39px;
+  height: 390px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+  padding-top: 2px;
+}
+#Fav {
+  margin-right: 24px;
+}
+#Cart {
+  margin-right: 24px;
+}
+.icons img {
   width: 35px;
   height: 35px;
 }
@@ -67,6 +83,7 @@
   transform: scale(0);
   transform-origin: top center;
   border-radius: 6px;
+  list-style-type: none;
 }
 .sub-menu li:last-child {
   border-bottom: 0;
@@ -172,7 +189,6 @@ h4 {
   text-align: center;
 }
 #reseaux {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -188,7 +204,8 @@ h2 {
 .logor {
   align-self: center;
 }
-.reseausocio img {
-  height: 40px;
-  width: auto;
+.iconreso {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
