@@ -115,7 +115,7 @@ h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 #contact {
   display: flex;
@@ -147,7 +147,6 @@ h2 {
   padding-left: 10px;
   padding-right: 10px;
   margin: 10px;
-  margin-bottom: 50px;
 }
 /*Footer*/
 

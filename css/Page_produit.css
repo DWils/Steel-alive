@@ -140,10 +140,12 @@ h5 {
   text-transform: capitalize;
   margin-bottom: 10px;
 }
+
 #produit {
   height: 500px;
   padding: 0px;
 }
+
 #description {
   background-color: rgb(0, 183, 255);
   padding: 15px;
@@ -162,6 +164,7 @@ h6 {
   margin-top: 70px;
   margin-bottom: 40px;
 }
+
 #suggestion {
   border: 3px solid black;
   border-radius: 10px;
