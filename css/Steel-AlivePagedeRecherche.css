@@ -110,7 +110,7 @@
 }
 
 .sellbutton {
-  background-color: #000; 
+  background-color: #000;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -132,8 +132,7 @@
 
 /* filtre et article */
 
-label{
-  
+label {
 }
 
 #content {
@@ -144,6 +143,7 @@ label{
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
+  text-decoration: none !important;
 }
 #filtremenu {
   display: flex;
@@ -164,6 +164,7 @@ label{
   height: fit-content;
   text-decoration: none;
   position: relative;
+  text-decoration: none !important;
 }
 
 .laptop {
@@ -171,6 +172,7 @@ label{
   margin-bottom: 50px;
   position: relative;
   display: none;
+  text-decoration: none !important;
 }
 
 :hover.laptop {
@@ -181,6 +183,7 @@ label{
   transform: none;
   transform: scale(1.2);
   transition: transform 1s;
+  text-decoration: none !important;
 }
 
 .prix {
