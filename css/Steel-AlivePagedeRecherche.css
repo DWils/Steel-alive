@@ -3,7 +3,7 @@
   padding: 0;
   z-index: 3;
   box-sizing: border-box;
-  text-decoration: none !important;
+  text-decoration: none;
   color: inherit;
 }
 
@@ -131,10 +131,13 @@
 }
 
 /* filtre et article */
+
+label {
+}
+
 #content {
   display: flex;
   flex-direction: row;
-
   width: 90%;
   flex-wrap: nowrap;
   margin: auto;
