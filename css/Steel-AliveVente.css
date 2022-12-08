@@ -101,6 +101,7 @@ h1 {
   justify-content: flex-start;
   margin-top: 30px;
   margin-bottom: 20px;
+  margin-left: 50px;
 }
 
 #Prodtitle {
@@ -113,7 +114,7 @@ h1 {
   height: fit-content;
   width: fit-content;
   color: white;
-  margin-left: 15px;
+  margin-left: 50px;
 }
 
 .fakepics {
