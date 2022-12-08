@@ -11,184 +11,186 @@
 </head>
 
 <body>
+  <div id="page">
+    <!--Header-->
 
-  <!--Header-->
-
-  <body>
-    <header>
-      <div id="header">
-        <div id="titre_principal">
-          <div id="logo">
-            <a href="Steel-Alive.html">
-              <img src="images/logo.png" alt="logosite" />
-              <a>Steel Alive</a></a>
-          </div>
-          <div id="searchBar">
-            <form method="post" action="traitement.php">
-              <p>
-                <label for="searchBar">C'est parti:</label>
-                <input type="text" name="searchBar" id="searchBar" placeholder="Iphone 14 Pro" size="30"
-                  maxlength="10" />
-              </p>
-            </form>
-          </div>
-          <div class="icons">
-            <!--ajouter lien ici pour icône favoris-->
-            <div id="Fav">
-              <img src="images/favorite.png" />
+    <body>
+      <header>
+        <div id="header">
+          <div id="titre_principal">
+            <div id="logo">
+              <a href="Steel-Alive.html">
+                <img src="images/logo.png" alt="logosite" />
+                <a>Steel Alive</a></a>
             </div>
-            <a href="Steel-AlivePanier.html">
-              <div id="Cart">
-                <img src="images/cart.png" />
+            <div id="searchBar">
+              <form method="post" action="traitement.php">
+                <p>
+                  <label for="searchBar">C'est parti:</label>
+                  <input type="text" name="searchBar" id="searchBar" placeholder="Iphone 14 Pro" size="30"
+                    maxlength="10" />
+                </p>
+              </form>
+            </div>
+            <div class="icons">
+              <!--ajouter lien ici pour icône favoris-->
+              <div id="Fav">
+                <img src="images/favorite.png" />
               </div>
-            </a>
-            <div id="Profil">
-              <a href="Steal-Alive_connexion.html">
-                <img src="images/profile.png">
+              <a href="Steel-AlivePanier.html">
+                <div id="Cart">
+                  <img src="images/cart.png" />
+                </div>
+              </a>
+              <div id="Profil">
+                <a href="Steal-Alive_connexion.html">
+                  <img src="images/profile.png">
+              </div>
+              </a>
             </div>
-            </a>
+          </div>
+          <!--Navbar-->
+          <nav>
+            <div class="navbox">
+              <ul class="menu">
+                <li>
+                  Ordinateurs
+                  <ul class="sub-menu">
+                    <a href="Steel-AlivePagedeRecherche.html">
+                      <li>Portables/ultrabook</li>
+                    </a>
+                    <li>Composants</li>
+                    <li>Écrans</li>
+                    <li>Autres périphériques</li>
+                    <li>Divers</li>
+                  </ul>
+                </li>
+                <li>
+                  Smartphones
+                  <ul class="sub-menu">
+                    <li>Ios</li>
+                    <li>Android</li>
+                    <li>Périphériques</li>
+                  </ul>
+                </li>
+                <li>
+                  Télévision
+                  <ul class="sub-menu">
+                    <li>30 pouces et moins</li>
+                    <li>30 à 50 pouces</li>
+                    <li>Plus de 50 pouces</li>
+                    <li>Périphériques</li>
+                  </ul>
+                </li>
+                <li>
+                  Audio/Hi-Fi
+                  <ul class="sub-menu">
+                    <li>Enceintes</li>
+                    <li>Home-Cinema</li>
+                    <li>Casques/écouteurs</li>
+                    <li>Micros</li>
+                    <li>Autres</li>
+                  </ul>
+                </li>
+                <li>
+                  Gaming
+                  <ul class="sub-menu">
+                    <li>Nintendo</li>
+                    <li>Playstation</li>
+                    <li>Xbox</li>
+                    <li>Autres</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <!--FORMULAIRE VENTE-->
+
+      <h1> Mets en vente ton produit HS </h1>
+
+      <div id="Prodtitle">
+        <label for="searchBar">Qu'est ce que tu souhaites vendre ? :</label>
+        <input type="text" name="Prod" id="Productitle" placeholder="Iphone 14 Pro" size="30" maxlength="10">
+      </div>
+      <div class="fakepics">
+        <div class="pics1">
+          <div id="firstadd1"><img id="blah1" alt="your image" width="100" height="100" />
+            <input type="file"
+              onchange="document.getElementById('blah1').src = window.URL.createObjectURL(this.files[0])">
           </div>
         </div>
-        <!--Navbar-->
-        <nav>
-          <div class="navbox">
-            <ul class="menu">
-              <li>
-                Ordinateurs
-                <ul class="sub-menu">
-                  <a href="Steel-AlivePagedeRecherche.html">
-                    <li>Portables/ultrabook</li>
-                  </a>
-                  <li>Composants</li>
-                  <li>Écrans</li>
-                  <li>Autres périphériques</li>
-                  <li>Divers</li>
-                </ul>
-              </li>
-              <li>
-                Smartphones
-                <ul class="sub-menu">
-                  <li>Ios</li>
-                  <li>Android</li>
-                  <li>Périphériques</li>
-                </ul>
-              </li>
-              <li>
-                Télévision
-                <ul class="sub-menu">
-                  <li>30 pouces et moins</li>
-                  <li>30 à 50 pouces</li>
-                  <li>Plus de 50 pouces</li>
-                  <li>Périphériques</li>
-                </ul>
-              </li>
-              <li>
-                Audio/Hi-Fi
-                <ul class="sub-menu">
-                  <li>Enceintes</li>
-                  <li>Home-Cinema</li>
-                  <li>Casques/écouteurs</li>
-                  <li>Micros</li>
-                  <li>Autres</li>
-                </ul>
-              </li>
-              <li>
-                Gaming
-                <ul class="sub-menu">
-                  <li>Nintendo</li>
-                  <li>Playstation</li>
-                  <li>Xbox</li>
-                  <li>Autres</li>
-                </ul>
-              </li>
-            </ul>
+        <div class="pics2">
+          <div id="firstadd2"><img id="blah2" alt="your image" width="100" height="100" />
+            <input type="file"
+              onchange="document.getElementById('blah2').src = window.URL.createObjectURL(this.files[0])">
           </div>
-        </nav>
-      </div>
-    </header>
-
-    <!--FORMULAIRE VENTE-->
-
-    <h1> Mets en vente ton produit HS </h1>
-
-    <div id="Prodtitle">
-      <label for="searchBar">Qu'est ce que tu souhaites vendre ? :</label>
-      <input type="text" name="Prod" id="Productitle" placeholder="Iphone 14 Pro" size="30" maxlength="10">
-    </div>
-    <div class="fakepics">
-      <div class="pics1">
-        <div id="firstadd1"><img id="blah1" alt="your image" width="100" height="100" />
-          <input type="file"
-            onchange="document.getElementById('blah1').src = window.URL.createObjectURL(this.files[0])">
+        </div>
+        <div class="pics3">
+          <div id="firstadd3"><img id="blah3" alt="your image" width="100" height="100" />
+            <input type="file"
+              onchange="document.getElementById('blah3').src = window.URL.createObjectURL(this.files[0])">
+          </div>
         </div>
       </div>
-      <div class="pics2">
-        <div id="firstadd2"><img id="blah2" alt="your image" width="100" height="100" />
-          <input type="file"
-            onchange="document.getElementById('blah2').src = window.URL.createObjectURL(this.files[0])">
+
+      <div class="carac">
+        <div class="state">
+          <form action="action_page.php">
+            <label for="cars">État du produit:</label>
+            <select>
+              <option value="BN">Défaut esthétique</option>
+              <option value="VG">Défaut fonctionnel</option>
+              <option value="G">Les deux</option>
+            </select>
+        </div>
+
+        <div class="descript"><label>Description du produit:</label>
+          <textarea rows="4" cols="50" placeholder="Décrire le produit le plus précisément possible..."></textarea>
+        </div>
+        </form>
+        <div class="pricelabel">
+          <label>Prix:<input type="number"></label>
         </div>
       </div>
-      <div class="pics3">
-        <div id="firstadd3"><img id="blah3" alt="your image" width="100" height="100" />
-          <input type="file"
-            onchange="document.getElementById('blah3').src = window.URL.createObjectURL(this.files[0])">
+      <div class="sell">
+        <button class="button button1" onclick="myFunction()">Vendre!</button>
+        <script>function myFunction() {
+            alert("Merci, votre produit est en vente !");
+          }</script>
+
+      </div>
+
+      <!--FOOTER-->
+
+      <footer>
+        <div id="footer">
+          <div id="nous">
+            <h2>A propos de nous</h2>
+            <a class="lien" href="Steel-AliveAide.html">Qui sommes nous?</a>
+            <a class="lien" href="Steel-AliveDIYTutos.html">Le Do It Yourself (DIY)</a>
+          </div>
+          <div id="cg">
+            <a class="lien" href="CGU.htlm">Conditions générales d'utilsateur</a>
+            <a class="lien" href="CGV.htlm">Conditions générales de vente</a>
+            <p>@2022 Steel-Alive</p>
+          </div>
+          <div id="réseaux">
+            <h2>Nos réseaux</h2>
+            <a class="logor" href="https://fr-fr.facebook.com/" target="_blank"><img class="reseausocio"
+                src="images/face.png" alt="face" /></a>
+            <a class="logor" href="https://www.instagram.com/?hl=fr" target="_blank"><img class="reseausocio"
+                src="images/insta.png" alt="face" /></a>
+            <a class="logor" href="https://twitter.com/i/flow/login" target="_blank"><img class="reseausocio"
+                src="images/twit.png" alt="face" /></a>
+          </div>
         </div>
-      </div>
-    </div>
+      </footer>
+  </div>
+  <script src="../javascript/vente.js"></script>
 
-    <div class="carac">
-      <div class="state">
-        <form action="action_page.php">
-          <label for="cars">État du produit:</label>
-          <select>
-            <option value="BN">Défaut esthétique</option>
-            <option value="VG">Défaut fonctionnel</option>
-            <option value="G">Les deux</option>
-          </select>
-      </div>
-
-      <div class="descript"><label>Description du produit:</label>
-        <textarea rows="4" cols="50" placeholder="Décrire le produit le plus précisément possible..."></textarea>
-      </div>
-      </form>
-      <div class="pricelabel">
-        <label>Prix:<input type="number"></label>
-      </div>
-    </div>
-    <div class="sell">
-      <button class="button button1" onclick="myFunction()">Vendre!</button>
-      <script>function myFunction() {
-          alert("Merci, votre produit est en vente !");
-        }</script>
-
-    </div>
-
-    <!--FOOTER-->
-
-    <footer>
-      <div id="footer">
-        <div id="nous">
-          <h2>A propos de nous</h2>
-          <a class="lien" href="Steel-AliveAide.html">Qui sommes nous?</a>
-          <a class="lien" href="Steel-AliveDIYTutos.html">Le Do It Yourself (DIY)</a>
-        </div>
-        <div id="cg">
-          <a class="lien" href="CGU.htlm">Conditions générales d'utilsateur</a>
-          <a class="lien" href="CGV.htlm">Conditions générales de vente</a>
-          <p>@2022 Steel-Alive</p>
-        </div>
-        <div id="réseaux">
-          <h2>Nos réseaux</h2>
-          <a class="logor" href="https://fr-fr.facebook.com/" target="_blank"><img class="reseausocio"
-              src="images/face.png" alt="face" /></a>
-          <a class="logor" href="https://www.instagram.com/?hl=fr" target="_blank"><img class="reseausocio"
-              src="images/insta.png" alt="face" /></a>
-          <a class="logor" href="https://twitter.com/i/flow/login" target="_blank"><img class="reseausocio"
-              src="images/twit.png" alt="face" /></a>
-        </div>
-      </div>
-    </footer>
-    <script src="../javascript/vente.js"></script>
-  </body>
+</body>
 
 </html>

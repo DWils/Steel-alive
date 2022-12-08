@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
 }
+#page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
 
 /*HEADER*/
 
@@ -98,8 +104,10 @@ h1 {
   display: flex;
   justify-content: center;
   margin-bottom: 1cm;
+  margin-top: 80px;
 }
 /* main */
+
 #mainwraper {
   border: 1px black slid;
   width: 80%;
@@ -107,6 +115,7 @@ h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 100px;
 }
 #contact {
   display: flex;
@@ -119,8 +128,7 @@ p {
   margin: 10px;
   text-align: center;
 }
-#separator {
-}
+
 #cathelp {
   display: flex;
   flex-direction: column;
@@ -139,22 +147,21 @@ h2 {
   padding-left: 10px;
   padding-right: 10px;
   margin: 10px;
-  margin-bottom: 10px;
 }
 /*Footer*/
 
-#footer {
+footer {
   border: 1px solid black;
   background-color: #3d5467;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
-  margin-top: 150px;
   color: aliceblue;
   padding-top: 20px;
-  margin-top: 30px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 #nous {
   display: flex;
